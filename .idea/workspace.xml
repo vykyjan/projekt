@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-    </list>
+    <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="" />
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1367936338781" ignored="false" />
@@ -40,7 +36,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="571" selection-end="571" vertical-scroll-proportion="0.8267717">
+            <state line="9" column="66" selection-start="212" selection-end="212" vertical-scroll-proportion="0.23622048">
               <folding />
             </state>
           </provider>
@@ -418,7 +414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="571" selection-end="571" vertical-scroll-proportion="0.8267717">
+        <state line="9" column="66" selection-start="212" selection-end="212" vertical-scroll-proportion="0.23622048">
           <folding />
         </state>
       </provider>
