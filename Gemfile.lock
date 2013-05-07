@@ -126,6 +126,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 3.2.1)
   jquery-rails
+  less (= 2.2.1)
   rails (= 3.2.3)
   rmagick
   russian (~> 0.6.0)
