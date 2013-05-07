@@ -2,4 +2,4 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the rails application
-Svatba3::Application.initialize!
+Svatba::Application.initialize!

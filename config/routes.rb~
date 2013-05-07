@@ -1,4 +1,4 @@
-Svatba3::Application.routes.draw do
+Svatba::Application.routes.draw do
   get "home/index"
 
   # The priority is based upon order of creation:

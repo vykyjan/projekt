@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Svatba3::Application.load_tasks
+Svatba::Application.load_tasks

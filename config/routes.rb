@@ -1,8 +1,6 @@
-Svatba3::Application.routes.draw do
-  get "users/new"
-
+Svatba::Application.routes.draw do
   get "home/index"
- match '/home',    to: 'home#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
