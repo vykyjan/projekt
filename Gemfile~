@@ -16,7 +16,7 @@ gem 'mysql2'
 gem 'therubyracer'
 gem 'execjs'
 gem 'bootstrap-will_paginate', '0.0.6'
-
+gem 'bootstrap-sass', '2.0.4'
   gem 'twitter-bootstrap-rails'
 end
 
