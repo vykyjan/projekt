@@ -1,5 +1,15 @@
-Svatba::Application.routes.draw do
- match '/home',    to: 'home#home'
+GalleryJqueryFileUpload::Application.routes.draw do
+
+  resources :galleries do
+    resources :pictures do
+      collection do
+        post 'make_default'
+      end
+    end
+  end
+  resources :pictures
+
+  root :to => 'galleries#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -50,7 +60,7 @@ Svatba::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'home#index'
+  # root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
 

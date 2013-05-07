@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Svatba::Application.load_tasks
+GalleryJqueryFileUpload::Application.load_tasks

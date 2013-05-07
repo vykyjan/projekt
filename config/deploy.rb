@@ -1,7 +1,7 @@
 set :user, 'root'
 set :domain, '37.157.198.135'
 
-set :scm, :git
+ set :scm, :git
 
 #set :repository, "gitolite@37.157.198.135:farnost"
 #set :repository, "file:/home/gitolite/repositories/farnost.git"
@@ -13,7 +13,7 @@ set :deploy_via, :remote_cache
 
 
 set :copy_cache, true
-
+set :user, "root"
 set :use_sudo, false
 
 set :scm, :git # Should I change this to :none
@@ -23,8 +23,7 @@ set :branch, "master"
 role :web, domain
 role :app, domain
 role :db,  domain, :primary => true
-
-# deploy config
+ 
 
 
 
@@ -42,4 +41,6 @@ after "deploy:symlink" do
   run "chmod -R 0666 #{current_path}/log"
   run "chown -R www-data:www-data #{current_path}/"
 end
+
+ 
 
