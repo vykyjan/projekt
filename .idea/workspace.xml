@@ -45,8 +45,12 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="97" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="50" column="97" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1367945238818" expanded="true" signature="70:1820" placeholder="do ... end" />
+                <marker date="1367945238818" expanded="true" signature="73:1497" placeholder="#..." />
+                <marker date="1367945238818" expanded="true" signature="1529:1816" placeholder="#..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +74,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -407,8 +411,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="97" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="50" column="97" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1367945238818" expanded="true" signature="70:1820" placeholder="do ... end" />
+            <marker date="1367945238818" expanded="true" signature="73:1497" placeholder="#..." />
+            <marker date="1367945238818" expanded="true" signature="1529:1816" placeholder="#..." />
+          </folding>
         </state>
       </provider>
     </entry>
