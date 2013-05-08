@@ -12,7 +12,7 @@ gem 'carrierwave'
 gem 'russian', '~> 0.6.0'
 
 group :production do
-gem 'mysql2'
+gem 'mysql2', '0.3.11'
 gem 'therubyracer'
 gem 'execjs'
 gem 'bootstrap-will_paginate', '0.0.6'
