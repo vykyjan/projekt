@@ -282,3 +282,603 @@ Served asset /application.css - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 09:39:28 +0200
 Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 16:30:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (45.0ms)
+Completed 500 Internal Server Error in 87ms
+
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0xb5332cf4>:0xb53317dc>):
+    41:       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    42:     </div><!-- /.carousel -->
+    43: 
+    44:  <li> <%= link_to home_path do %>
+    45:   <%= image_tag("close.png") %> Zavřít<% end %></li>
+    46: 
+    47: 
+  app/views/home/index.html.erb:44:in `_app_views_home_index_html_erb___710627124_78685110'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.9ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 16:33:11 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Compiled bootstrap_and_overrides.css  (1684ms)  (pid 10216)
+Completed 500 Internal Server Error in 1840ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load path: Sass::Rails::Importer(/home/hanes/Dokumenty/repo/svatba/app/assets/stylesheets/home.css.scss)
+  (in /home/hanes/Dokumenty/repo/svatba/app/assets/stylesheets/home.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Svatba3</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/home.css.scss:4
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___459272210_78678500'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.2ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 16:33:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Compiled home.css  (55ms)  (pid 10216)
+Compiled jquery.Jcrop.css  (0ms)  (pid 10216)
+Compiled jquery.fileupload-ui.css  (0ms)  (pid 10216)
+Compiled pictures.css  (0ms)  (pid 10216)
+Compiled slimbox2.css  (0ms)  (pid 10216)
+Compiled application.css  (155ms)  (pid 10216)
+Compiled jquery.js  (2ms)  (pid 10216)
+Compiled jquery_ujs.js  (0ms)  (pid 10216)
+Compiled jquery.ui.widget.js  (0ms)  (pid 10216)
+Compiled jquery.Jcrop.js  (0ms)  (pid 10216)
+Compiled load-image.min.js  (0ms)  (pid 10216)
+Compiled canvas-to-blob.min.js  (0ms)  (pid 10216)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 10216)
+Compiled jquery.fileupload.js  (0ms)  (pid 10216)
+Compiled jquery.fileupload-ip.js  (0ms)  (pid 10216)
+Compiled jquery.fileupload-ui.js  (0ms)  (pid 10216)
+Compiled locale.js  (0ms)  (pid 10216)
+Compiled main.js  (0ms)  (pid 10216)
+Compiled pictures.js  (105ms)  (pid 10216)
+Compiled slimbox2.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (39ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 10216)
+Compiled twitter/bootstrap/bootstrap-affix.js  (1ms)  (pid 10216)
+Compiled twitter/bootstrap.js  (309ms)  (pid 10216)
+Compiled bootstrap-image-gallery.min.js  (0ms)  (pid 10216)
+Compiled mojejs.js  (0ms)  (pid 10216)
+Compiled application.js  (654ms)  (pid 10216)
+Completed 200 OK in 888ms (Views: 887.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-05-08 16:33:59 +0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (6ms)
+
+
+Started GET "/assets/js/bootstrap-transition.js" for 127.0.0.1 at 2013-05-08 16:33:59 +0200
+Served asset /js/bootstrap-transition.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-transition.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/js/bootstrap-alert.js" for 127.0.0.1 at 2013-05-08 16:33:59 +0200
+Served asset /js/bootstrap-alert.js - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-alert.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/mojejs.js?body=1" for 127.0.0.1 at 2013-05-08 16:33:59 +0200
+Served asset /mojejs.js - 200 OK (2ms)
+
+
+Started GET "/assets/js/bootstrap-modal.js" for 127.0.0.1 at 2013-05-08 16:33:59 +0200
+Served asset /js/bootstrap-modal.js - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-modal.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/js/bootstrap-scrollspy.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-scrollspy.js - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-scrollspy.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/js/bootstrap-tab.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-tab.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-tab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/js/bootstrap-tooltip.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-tooltip.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-tooltip.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/js/bootstrap-popover.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-popover.js - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-popover.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/js/bootstrap-button.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-button.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-button.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/js/bootstrap-collapse.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-collapse.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-collapse.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/js/bootstrap-carousel.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-carousel.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-carousel.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/js/bootstrap-typeahead.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-typeahead.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-typeahead.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /bootstrap_and_overrides.css - 200 OK (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.Jcrop.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.fileupload-ui.css - 200 OK (2ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /pictures.css - 200 OK (3ms)
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /slimbox2.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.Jcrop.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.ui.widget.js - 200 OK (3ms)
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /load-image.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /canvas-to-blob.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.iframe-transport.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.fileupload.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.fileupload-ip.js - 200 OK (2ms)
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /locale.js - 200 OK (2ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /pictures.js - 200 OK (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /main.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /jquery.fileupload-ui.js - 200 OK (5ms)
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /slimbox2.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (9ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /twitter/bootstrap.js - 200 OK (20ms)
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /bootstrap-image-gallery.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/js/jquery.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/jquery.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/jquery.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/js/bootstrap-dropdown.js" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /js/bootstrap-dropdown.js - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/js/bootstrap-dropdown.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/slide1.JPG" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /slide1.JPG - 200 OK (10ms)
+
+
+Started GET "/assets/slide2.JPG" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /slide2.JPG - 200 OK (4ms)
+
+
+Started GET "/assets/close.png" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /close.png - 200 OK (4ms)
+
+
+Started GET "/assets/slide3.JPG" for 127.0.0.1 at 2013-05-08 16:34:00 +0200
+Served asset /slide3.JPG - 200 OK (4ms)
