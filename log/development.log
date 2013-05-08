@@ -114,3 +114,171 @@ Served asset /application.js - 200 OK (82ms)
   [1m[35m (145.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130319201121')
   [1m[36m (155.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120529075041')[0m
   [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 09:38:20 +0200
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.1ms)[0m  [1mSELECT "galleries".* FROM "galleries" [0m
+  Rendered galleries/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 574ms (Views: 467.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 09:38:21 +0200
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 09:38:21 +0200
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2013-05-08 09:38:23 +0200
+Processing by GalleriesController#new as HTML
+  [1m[35mGallery Exists (0.2ms)[0m  SELECT 1 FROM "galleries" WHERE "galleries"."token" = 'A2bsA28wQjSp_9vLLa5WeQ' LIMIT 1
+  Rendered galleries/_form.html.erb (201.4ms)
+  Rendered galleries/new.html.erb within layouts/application (299.2ms)
+Completed 200 OK in 1005ms (Views: 327.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 09:38:24 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 09:38:24 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started POST "/pictures" for 127.0.0.1 at 2013-05-08 09:38:58 +0200
+Processing by PicturesController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eS8mbgjXGd2e5EuMvKwEn82jLMhVUtmmJZp3letBAM8=", "picture"=>{"gallery_token"=>"A2bsA28wQjSp_9vLLa5WeQ", "image"=>[#<ActionDispatch::Http::UploadedFile:0x93341b4 @original_filename="images.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[image][]\"; filename=\"images.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130508-4806-q318tb>>]}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (53.8ms)[0m  INSERT INTO "pictures" ("created_at", "description", "gallery_id", "gallery_token", "image", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 08 May 2013 07:38:58 UTC +00:00], ["description", nil], ["gallery_id", nil], ["gallery_token", "A2bsA28wQjSp_9vLLa5WeQ"], ["image", "images.jpg"], ["updated_at", Wed, 08 May 2013 07:38:58 UTC +00:00]]
+  [1m[36m (184.2ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 445ms (Views: 0.2ms | ActiveRecord: 238.2ms)
+
+
+Started DELETE "/galleries/undefined/pictures/1" for 127.0.0.1 at 2013-05-08 09:39:01 +0200
+Processing by PicturesController#destroy as JS
+  Parameters: {"gallery_id"=>"undefined", "id"=>"1"}
+  [1m[35mGallery Load (0.4ms)[0m  SELECT "galleries".* FROM "galleries" WHERE "galleries"."id" = ? LIMIT 1  [["id", "undefined"]]
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Gallery with id=undefined):
+  app/controllers/pictures_controller.rb:98:in `destroy'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started DELETE "/galleries/undefined/pictures/1" for 127.0.0.1 at 2013-05-08 09:39:04 +0200
+Processing by PicturesController#destroy as JS
+  Parameters: {"gallery_id"=>"undefined", "id"=>"1"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT "galleries".* FROM "galleries" WHERE "galleries"."id" = ? LIMIT 1[0m  [["id", "undefined"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Gallery with id=undefined):
+  app/controllers/pictures_controller.rb:98:in `destroy'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started DELETE "/galleries/undefined/pictures/1" for 127.0.0.1 at 2013-05-08 09:39:06 +0200
+Processing by PicturesController#destroy as JS
+  Parameters: {"gallery_id"=>"undefined", "id"=>"1"}
+  [1m[35mGallery Load (0.1ms)[0m  SELECT "galleries".* FROM "galleries" WHERE "galleries"."id" = ? LIMIT 1  [["id", "undefined"]]
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Gallery with id=undefined):
+  app/controllers/pictures_controller.rb:98:in `destroy'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started DELETE "/galleries/undefined/pictures/1" for 127.0.0.1 at 2013-05-08 09:39:10 +0200
+Processing by PicturesController#destroy as JS
+  Parameters: {"gallery_id"=>"undefined", "id"=>"1"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT "galleries".* FROM "galleries" WHERE "galleries"."id" = ? LIMIT 1[0m  [["id", "undefined"]]
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Gallery with id=undefined):
+  app/controllers/pictures_controller.rb:98:in `destroy'
+
+
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/hanes/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started POST "/galleries" for 127.0.0.1 at 2013-05-08 09:39:18 +0200
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eS8mbgjXGd2e5EuMvKwEn82jLMhVUtmmJZp3letBAM8=", "gallery"=>{"token"=>"A2bsA28wQjSp_9vLLa5WeQ", "name"=>"cccc", "description"=>"ccc"}, "commit"=>"Create Gallery"}
+  [1m[35mPicture Load (0.4ms)[0m  SELECT "pictures".* FROM "pictures" WHERE "pictures"."gallery_token" = 'A2bsA28wQjSp_9vLLa5WeQ'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "galleries" ("cover", "created_at", "description", "name", "token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["cover", nil], ["created_at", Wed, 08 May 2013 07:39:18 UTC +00:00], ["description", "ccc"], ["name", "cccc"], ["token", "A2bsA28wQjSp_9vLLa5WeQ"], ["updated_at", Wed, 08 May 2013 07:39:18 UTC +00:00]]
+  [1m[36m (0.3ms)[0m  [1mUPDATE "pictures" SET "gallery_id" = 1, "updated_at" = '2013-05-08 07:39:18.820211' WHERE "pictures"."id" = 1[0m
+  [1m[35m (275.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/galleries/1
+Completed 302 Found in 292ms (ActiveRecord: 276.5ms)
+
+
+Started GET "/galleries/1" for 127.0.0.1 at 2013-05-08 09:39:19 +0200
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGallery Load (0.2ms)[0m  [1mSELECT "galleries".* FROM "galleries" WHERE "galleries"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPicture Load (0.3ms)[0m  SELECT "pictures".* FROM "pictures" WHERE (gallery_id = 1)
+  Rendered galleries/show.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 90ms (Views: 84.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 09:39:19 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 09:39:19 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started DELETE "/galleries/1/pictures/1" for 127.0.0.1 at 2013-05-08 09:39:21 +0200
+Processing by PicturesController#destroy as JS
+  Parameters: {"gallery_id"=>"1", "id"=>"1"}
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries" WHERE "galleries"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPicture Load (0.3ms)[0m  SELECT "pictures".* FROM "pictures" WHERE "pictures"."gallery_id" = 1 AND "pictures"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "pictures" WHERE "pictures"."id" = ?  [["id", 1]]
+  [1m[36m (146.3ms)[0m  [1mcommit transaction[0m
+  Rendered pictures/destroy.js.erb (0.5ms)
+Completed 200 OK in 160ms (Views: 5.8ms | ActiveRecord: 147.2ms)
+
+
+Started DELETE "/galleries/1" for 127.0.0.1 at 2013-05-08 09:39:28 +0200
+Processing by GalleriesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"eS8mbgjXGd2e5EuMvKwEn82jLMhVUtmmJZp3letBAM8=", "id"=>"1"}
+  [1m[35mGallery Load (0.2ms)[0m  SELECT "galleries".* FROM "galleries" WHERE "galleries"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures" WHERE "pictures"."gallery_id" = 1
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "galleries" WHERE "galleries"."id" = ?[0m  [["id", 1]]
+  [1m[35m (166.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/galleries
+Completed 302 Found in 173ms (ActiveRecord: 167.5ms)
+
+
+Started GET "/galleries" for 127.0.0.1 at 2013-05-08 09:39:28 +0200
+Processing by GalleriesController#index as HTML
+  [1m[36mGallery Load (0.3ms)[0m  [1mSELECT "galleries".* FROM "galleries" [0m
+  Rendered galleries/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 09:39:28 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 09:39:28 +0200
+Served asset /application.js - 304 Not Modified (3ms)
