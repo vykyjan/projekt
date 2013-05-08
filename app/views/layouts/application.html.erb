@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Svatba3</title>
+  <title>Svatba</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -26,15 +26,15 @@
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-               <li> <%= link_to "Úvod", '#' %></li>
-               <li> <%= link_to "Snoubenci", :action => "index" %></li>
-                  <li> <%= link_to "Aktuality", '#' %></li>
-                    <li> <%= link_to "Dary", '#' %></li>
-                      <li> <%= link_to "Program", '#' %></li>
-                        <li> <%= link_to "Kontakty", '#' %></li>
+               <li> <%= link_to "Úvod", home_path %></li>
+               <li> <%= link_to "Snoubenci", root_path %></li>
+                  <li> <%= link_to "Aktuality", aktuality_path %></li>
+                    <li> <%= link_to "Dary", dary_path %></li>
+                      <li> <%= link_to "Program", program_path %></li>
+                        <li> <%= link_to "Kontakty", kontakty_path %></li>
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
 
-                <span> <%= link_to "Přihlásit se", '#', :class => 'btn btn-warning' %>   <span>
+                <span> <%= link_to "Přihlásit se", prihlasit_path, :class => 'btn btn-warning' %>   <span>
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->

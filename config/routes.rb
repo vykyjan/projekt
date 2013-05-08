@@ -1,6 +1,11 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
  match '/home',    to: 'home#home'
+ match '/aktuality',    to: 'home#aktuality'
+ match '/dary',    to: 'home#dary'
+ match '/program',    to: 'home#program'
+ match '/kontakty',    to: 'home#kontakty'
+ match '/prihlasit',    to: 'home#prihlasit'
 
   resources :galleries do
     resources :pictures do

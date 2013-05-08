@@ -61,4 +61,19 @@
   (Add a class to the holder and style elements for that extended class)
 */
 
+.btn-warning {
+    height: 25px;
 
+}
+
+.btn btn-warning {
+    color: #000000;
+}
+.zavrit {
+    margin-top: -65px;
+
+}
+
+.row {
+    margin-top: 100px;
+}
