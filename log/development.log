@@ -90,3 +90,27 @@ Served asset /application.css - 200 OK (16ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-07 21:23:52 +0200
 Served asset /application.js - 200 OK (82ms)
+  [1m[36m (38.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (282.6ms)[0m  CREATE TABLE "galleries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "cover" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "token" varchar(255)) 
+  [1m[36m (204.2ms)[0m  [1mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar(255), "image" varchar(255), "gallery_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "gallery_token" varchar(255)) [0m
+  [1m[35m (247.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (267.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (278.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130319201547')
+  [1m[36m (237.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120529074915')[0m
+  [1m[35m (216.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130319201121')
+  [1m[36m (218.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120529075041')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (27.8ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (247.3ms)[0m  CREATE TABLE "galleries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "cover" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "token" varchar(255)) 
+  [1m[36m (184.4ms)[0m  [1mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar(255), "image" varchar(255), "gallery_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "gallery_token" varchar(255)) [0m
+  [1m[35m (164.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (144.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (195.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130319201547')
+  [1m[36m (156.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120529074915')[0m
+  [1m[35m (145.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130319201121')
+  [1m[36m (155.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120529075041')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
