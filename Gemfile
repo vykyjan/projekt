@@ -4,9 +4,9 @@ gem 'rails', '3.2.3'
 gem 'less', '2.2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+group :development do
 gem 'sqlite3'
-
+end
 gem 'rmagick'
 gem 'carrierwave'
 gem 'russian', '~> 0.6.0'
