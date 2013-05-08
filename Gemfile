@@ -12,6 +12,7 @@ gem 'carrierwave'
 gem 'russian', '~> 0.6.0'
 
 group :production do
+gem "less-rails"
 gem "mysql2", "~> 0.3.11"
 gem 'therubyracer'
 gem 'execjs'
