@@ -68,3 +68,124 @@ Compiled jquery.fileupload-ui.css  (0ms)  (pid 5949)
 Compiled pictures.css  (0ms)  (pid 5949)
 Compiled slimbox2.css  (0ms)  (pid 5949)
 Compiled application.css  (711ms)  (pid 5949)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 11:17:35 +0200
+
+Mysql2::Error (Unknown database 'svatba_production'):
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `connect'
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `initialize'
+  activerecord (3.2.3) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.3) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:303:in `new_connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:313:in `checkout_new_connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:237:in `block (2 levels) in checkout'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:232:in `loop'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:232:in `block in checkout'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:229:in `checkout'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `retrieve_connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__296181691__call__558341485__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/hanes/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Migrating to CreateGalleries (20120529074915)
+Migrating to CreatePictures (20120529075041)
+Migrating to AddTokenToGallery (20130319201121)
+Migrating to AddGalleryTokenToPicture (20130319201547)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 11:19:42 +0200
+Processing by GalleriesController#index as HTML
+  Rendered galleries/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 78ms (Views: 45.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2013-05-08 11:19:45 +0200
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (31.5ms)
+  Rendered galleries/new.html.erb within layouts/application (120.4ms)
+Completed 200 OK in 280ms (Views: 154.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/jquery.ui.widget-da22aa88cc720ab4810e61552823b770.js" for 127.0.0.1 at 2013-05-08 11:19:45 +0200
+Served asset /jquery.ui.widget-da22aa88cc720ab4810e61552823b770.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.iframe-transport-bede6961face3080050ab4c5e8a5bdde.js" for 127.0.0.1 at 2013-05-08 11:19:45 +0200
+Served asset /jquery.iframe-transport-bede6961face3080050ab4c5e8a5bdde.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.fileupload-b19bf31b3e73c880519870ed8e844400.js" for 127.0.0.1 at 2013-05-08 11:19:45 +0200
+Served asset /jquery.fileupload-b19bf31b3e73c880519870ed8e844400.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.fileupload-ui-4f172371d9e9e28b4d72a23498428bb2.js" for 127.0.0.1 at 2013-05-08 11:19:45 +0200
+Served asset /jquery.fileupload-ui-4f172371d9e9e28b4d72a23498428bb2.js - 200 OK (0ms)
+
+
+Started POST "/pictures" for 127.0.0.1 at 2013-05-08 11:20:32 +0200
+Processing by PicturesController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eS8mbgjXGd2e5EuMvKwEn82jLMhVUtmmJZp3letBAM8=", "picture"=>{"gallery_token"=>"N0jh0VE-R3-wG_gpUWFDjQ", "image"=>[#<ActionDispatch::Http::UploadedFile:0xb3369a1c @original_filename="mraky.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"picture[image][]\"; filename=\"mraky.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130508-6770-1winqdd>>]}}
+Completed 200 OK in 813ms (Views: 0.1ms | ActiveRecord: 79.4ms)
+
+
+Started POST "/galleries" for 127.0.0.1 at 2013-05-08 11:20:45 +0200
+Processing by GalleriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eS8mbgjXGd2e5EuMvKwEn82jLMhVUtmmJZp3letBAM8=", "gallery"=>{"token"=>"N0jh0VE-R3-wG_gpUWFDjQ", "name"=>"cccc", "description"=>"ccc"}, "commit"=>"Create Gallery"}
+Redirected to http://localhost:3000/galleries/1
+Completed 302 Found in 131ms (ActiveRecord: 119.9ms)
+
+
+Started GET "/galleries/1" for 127.0.0.1 at 2013-05-08 11:20:45 +0200
+Processing by GalleriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered galleries/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 17ms (Views: 10.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 11:36:26 +0200
+Processing by GalleriesController#index as HTML
+  Rendered galleries/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 100ms (Views: 52.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/galleries/new" for 127.0.0.1 at 2013-05-08 11:36:29 +0200
+Processing by GalleriesController#new as HTML
+  Rendered galleries/_form.html.erb (17.0ms)
+  Rendered galleries/new.html.erb within layouts/application (76.2ms)
+Completed 200 OK in 182ms (Views: 78.1ms | ActiveRecord: 2.5ms)
