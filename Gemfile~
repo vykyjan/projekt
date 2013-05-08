@@ -10,7 +10,7 @@ end
 gem 'rmagick'
 gem 'carrierwave'
 gem 'russian', '~> 0.6.0'
-
+gem "less-rails"
 group :production do
 
 gem "mysql2", "~> 0.3.11"
