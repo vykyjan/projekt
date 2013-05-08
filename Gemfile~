@@ -6,7 +6,7 @@ gem 'less', '2.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'activerecord-mysql2-adapter'
 gem 'rmagick'
 gem 'carrierwave'
 gem 'russian', '~> 0.6.0'
