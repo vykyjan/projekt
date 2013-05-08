@@ -18,6 +18,7 @@ gem 'execjs'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem 'bootstrap-sass', '2.0.4'
   gem 'twitter-bootstrap-rails'
+gem 'will_paginate', '3.0.4'
 end
 
 # Gems used only for assets and not required
