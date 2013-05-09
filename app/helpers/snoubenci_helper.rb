@@ -1,0 +1,2 @@
+module SnoubenciHelper
+end

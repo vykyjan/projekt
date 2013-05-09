@@ -1,0 +1,2 @@
+module ZenichHelper
+end

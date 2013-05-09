@@ -1,5 +1,15 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
+  get "snoubenci/index"
+
+  get "snoubenci/gallery"
+
+  match '/nevesta',    to: 'nevesta#index'
+match '/nevesta_gallery',    to: 'nevesta#gallery'
+  match '/zenich',    to: 'zenich#index'
+  match '/zenich_gallery',    to: 'zenich#gallery'
+  match '/snoubenci',    to: 'snoubenci#index'
+  match '/snoubenci_gallery',    to: 'snoubenci#gallery'
   get "users/new"
 
  match '/home',    to: 'home#home'

@@ -1,0 +1,2 @@
+module NevestaHelper
+end
