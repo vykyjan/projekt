@@ -1,5 +1,7 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
+  get "users/new"
+
  match '/home',    to: 'home#home'
  match '/aktuality',    to: 'home#aktuality'
  match '/dary',    to: 'home#dary'
