@@ -27,7 +27,20 @@
             <div class="nav-collapse collapse">
               <ul class="nav">
                <li> <%= link_to "Úvod", home_path %></li>
-               <li> <%= link_to "Snoubenci", root_path %></li>
+
+
+                <li id="fat-menu" class="dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                    Snoubenci <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to "Prezentace", root_path %></li>
+                    <li><%= link_to "Nevěsta", nevesta_path %></li>
+                    <li><%= link_to "Ženich", zenich_path %></li>
+                    <li><%= link_to "Něco o nás", snoubenci_path %></li>
+                    <li class="divider"></li>
+                    </ul>
+
                   <li> <%= link_to "Aktuality", aktuality_path %></li>
                     <li> <%= link_to "Dary", dary_path %></li>
                       <li> <%= link_to "Program", program_path %></li>
