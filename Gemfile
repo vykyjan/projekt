@@ -1,29 +1,20 @@
 source 'https://rubygems.org'
-ruby "1.9.3"
+
 gem 'rails', '3.2.3'
-gem 'less', '2.2.1'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-group :development do
+
 gem 'sqlite3'
-end
+
 gem 'rmagick'
 gem 'carrierwave'
 gem 'russian', '~> 0.6.0'
-gem "less-rails"
-gem 'libv8', '~> 3.11.8'
+
 group :production do
 
 gem "mysql2", "~> 0.3.11"
-gem 'therubyracer'
-gem 'execjs'
-gem 'bootstrap-will_paginate', '0.0.6'
-gem 'bootstrap-sass', '2.0.4'
-  gem 'twitter-bootstrap-rails'
-gem 'will_paginate', '3.0.4'
-
 end
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

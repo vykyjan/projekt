@@ -33,4 +33,3 @@
 
 //= require twitter/bootstrap
 //= require bootstrap-image-gallery.min
-//= require mojejs

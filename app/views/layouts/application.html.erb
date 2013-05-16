@@ -1,74 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Svatba</title>
+  <title>GalleryJqueryFileUpload</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
- <!-- NAVBAR
-    ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
+<div class="container">
+  <div class="row">
+    <div class="span8"><%= yield %></div>
+  </div>
+</div>
 
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="#">Honza a Raduška </a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-               <li> <%= link_to "Úvod", home_path %></li>
-
-
-                <li id="fat-menu" class="dropdown">
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown">
-                    Snoubenci <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><%= link_to "Prezentace", root_path %></li>
-                    <li><%= link_to "Nevěsta", nevesta_path %></li>
-                    <li><%= link_to "Ženich", zenich_path %></li>
-                    <li><%= link_to "Něco o nás", snoubenci_path %></li>
-                    <li class="divider"></li>
-                    </ul>
-
-                  <li> <%= link_to "Aktuality", aktuality_path %></li>
-                    <li> <%= link_to "Dary", dary_path %></li>
-                      <li> <%= link_to "Program", program_path %></li>
-                        <li> <%= link_to "Kontakty", kontakty_path %></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-
-                <span> <%= link_to "Přihlásit se", prihlasit_path, :class => 'btn btn-warning' %>   <span>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
-
-
-
-
-
-
-      <!-- START stranky -->
-
-<%= yield %>
-
-
-      <!-- /END stránky -->
-
-
-    
 </body>
 </html>

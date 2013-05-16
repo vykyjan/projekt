@@ -1,24 +1,5 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
-  get "snoubenci/index"
-
-  get "snoubenci/gallery"
-
-  match '/nevesta',    to: 'nevesta#index'
-match '/nevesta_gallery',    to: 'nevesta#gallery'
-  match '/zenich',    to: 'zenich#index'
-  match '/zenich_gallery',    to: 'zenich#gallery'
-  match '/snoubenci',    to: 'snoubenci#index'
-  match '/snoubenci_gallery',    to: 'snoubenci#gallery'
-  get "users/new"
-
- match '/home',    to: 'home#home'
- match '/aktuality',    to: 'home#aktuality'
- match '/dary',    to: 'home#dary'
- match '/program',    to: 'home#program'
- match '/kontakty',    to: 'home#kontakty'
- match '/prihlasit',    to: 'home#prihlasit'
-
   resources :galleries do
     resources :pictures do
       collection do
@@ -28,7 +9,7 @@ match '/nevesta_gallery',    to: 'nevesta#gallery'
   end
   resources :pictures
 
- 
+  root :to => 'galleries#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -79,7 +60,7 @@ match '/nevesta_gallery',    to: 'nevesta#gallery'
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'home#index'
+  # root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
 
