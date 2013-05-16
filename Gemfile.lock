@@ -29,6 +29,9 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+    bootstrap-sass (2.0.4.0)
+    bootstrap-will_paginate (0.0.6)
+      will_paginate
     builder (3.0.0)
     carrierwave (0.6.2)
       activemodel (>= 3.2.0)
@@ -119,13 +122,17 @@ GEM
     uglifier (1.2.4)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
+    will_paginate (3.0.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 2.0.4)
+  bootstrap-will_paginate (= 0.0.6)
   carrierwave
   coffee-rails (~> 3.2.1)
+  execjs
   jquery-rails
   mysql2 (~> 0.3.11)
   rails (= 3.2.3)
@@ -136,3 +143,4 @@ DEPENDENCIES
   therubyracer
   twitter-bootstrap-rails
   uglifier (>= 1.0.3)
+  will_paginate (= 3.0.4)

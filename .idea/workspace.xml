@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +27,7 @@
     <file path="/new.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368700338749" ignored="false" />
     <file path="/show.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368700494783" ignored="false" />
     <file path="/edit.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368690330801" ignored="false" />
+    <file path="/Gemfile" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368722195548" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +62,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pictures/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pictures/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,10 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.92178774">
+            <state line="15" column="32" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="5" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5621806">
               <folding />
             </state>
           </provider>
@@ -152,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/snoubenci/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/zenich/index.html.erb" />
@@ -168,6 +169,7 @@
         <option value="$PROJECT_DIR$/app/views/galleries/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -721,7 +723,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.92178774">
+        <state line="15" column="32" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5621806">
           <folding />
         </state>
       </provider>
