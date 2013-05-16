@@ -37,9 +37,10 @@ namespace :assets do
   end
 end
 
-after "deploy:symlink" do
-  run "chmod -R 0666 #{current_path}/log"
-  run "chown -R www-data:www-data #{current_path}/"
+deploy.task :restart, :roles => :app do
+  # Fix Permissions
+  sudo "chown -R www-data:www-data #{current_path}"
+  run "touch #{current_path}/tmp/restart.txt"
 end
 
  
