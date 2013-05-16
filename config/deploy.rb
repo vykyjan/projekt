@@ -37,7 +37,11 @@ namespace :assets do
   end
 end
 
-
+deploy.task :restart, :roles => :app do
+  # Fix Permissions
+   "chown -R www-data:www-data #{current_path}"
+  run "touch #{current_path}/tmp/restart.txt"
+end
 
  
 
