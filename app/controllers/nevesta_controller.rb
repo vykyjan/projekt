@@ -3,5 +3,6 @@ class NevestaController < ApplicationController
   end
 
   def gallery
+    @galleries = Gallery.all
   end
 end
