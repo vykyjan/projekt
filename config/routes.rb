@@ -1,5 +1,11 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
+  get "home/index"
+
+  get "home/aktuality"
+
+  get "home/program"
+
   resources :galleries do
     resources :pictures do
       collection do
@@ -9,7 +15,7 @@ GalleryJqueryFileUpload::Application.routes.draw do
   end
   resources :pictures
 
-  root :to => 'galleries#index'
+  root :to => 'home#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
