@@ -9,6 +9,7 @@
 
 
 
+
 .btn-warning {
   height: 25px;
   padding-top: 10px;
@@ -25,9 +26,11 @@
 }
 
 .row {
-  margin-top: 100px;
+  margin-top: 50px;
   padding-left: 30px;
-
+ p {
+   padding-top: 10px;
+ }
 }
 
 h1 {

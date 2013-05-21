@@ -7,4 +7,7 @@ class HomeController < ApplicationController
 
   def program
   end
+
+  def kontakty
+  end
 end

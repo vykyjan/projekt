@@ -1,10 +1,16 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
-  get "home/index"
-
-  get "home/aktuality"
-
-  get "home/program"
+  match '/snoubenci',  to: 'about_us#index'
+  match '/snoubenci_galerie',  to: 'about_us#gallery'
+  match '/zenich_galerie',  to: 'groom#gallery'
+  match '/zenich',  to: 'groom#index'
+  match '/nevesta',  to: 'bride#index'
+ match '/nevesta_galerie',  to: 'bride#gallery'
+  match '/home',    to: 'home#home'
+  match '/aktuality',    to: 'home#aktuality'
+  match '/dary',    to: 'home#dary'
+  match '/program',    to: 'home#program'
+  match '/kontakty',    to: 'home#kontakty'
 
   resources :galleries do
     resources :pictures do
