@@ -1,0 +1,18 @@
+<div class="container marketing">
+  <div class="row">
+<p id="notice"><%= notice %></p>
+
+
+<h3>Dar:  <%= @present.name %></h3>
+
+
+<p>
+  <b>Pole:</b>
+  <%= @present.pole %>
+</p>
+
+
+<%= link_to 'Změnit', edit_present_path(@present) %> |
+<%= link_to 'Zpět', presents_path %>
+  </div>
+    </div>

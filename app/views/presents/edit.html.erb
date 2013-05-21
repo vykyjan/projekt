@@ -1,0 +1,34 @@
+<div class="container marketing">
+  <div class="row">
+<h1>Změna daru</h1>
+
+
+<%= form_for(@present) do |f| %>
+    <% if @present.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@present.errors.count, "error") %> prohibited this present from being saved:</h2>
+
+          <ul>
+            <% @present.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <h3>Dar:  <%= @present.name %></h3>
+
+    <div class="field">
+      <%= f.label :pole, "Obsadit?" %><br />
+      <%= f.check_box :pole, { }, "Obsazeno", "Volno" %>
+    </div>
+    <div class="actions">
+      <%= f.submit "Aktualizovat" %>
+    </div>
+<% end %>
+
+
+<%= link_to 'Show', @present %> |
+<%= link_to 'Back', presents_path %>
+  </div>
+    </div>

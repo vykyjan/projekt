@@ -1,5 +1,7 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
+  resources :presents
+  match '/dary',  to: 'presents#index'
   match '/snoubenci',  to: 'about_us#index'
   match '/snoubenci_galerie',  to: 'about_us#gallery'
   match '/zenich_galerie',  to: 'groom#gallery'
