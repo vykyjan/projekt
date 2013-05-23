@@ -1,0 +1,17 @@
+
+<% provide(:title, @user.name) %>
+<div class="container marketing">
+<div class="row">
+  <aside class="span4">
+    <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+    <% end %>
+    <section>
+      <h1>
+        <%= @user.name %>
+        <%= @user.surname %>
+        <p>- nahlášených <%=  @user.person %> osob</p>
+      </h1>
+    </section>
+  </aside>
+</div>

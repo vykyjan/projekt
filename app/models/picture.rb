@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: pictures
+#
+#  id            :integer          not null, primary key
+#  description   :string(255)
+#  image         :string(255)
+#  gallery_id    :integer
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#  gallery_token :string(255)
+#
+
 class Picture < ActiveRecord::Base
   attr_accessible :description, :gallery_id, :image, :crop_x, :crop_y, :crop_w, :crop_h, :gallery_token
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h

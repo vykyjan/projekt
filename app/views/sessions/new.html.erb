@@ -1,0 +1,21 @@
+<div class="container marketing">
+  <div class="row">
+<% provide(:title, "přihlásit se") %>
+<h1>Přihlásit se</h1>
+
+
+  <div class="span6 offset3">
+    <%= form_for(:session, url: sessions_path) do |f| %>
+
+        <%= f.label :email %>
+        <%= f.text_field :email %>
+
+        <%= f.label :password %>
+        <%= f.password_field :password %>
+
+        <%= f.submit "Přihlásit se", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+    <p>Pokud nejste ještě registrováni <%= link_to "Registrovat nyní!", signup_path %></p>
+  </div>
+</div>

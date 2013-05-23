@@ -10,7 +10,7 @@ gem 'sqlite3'
 gem 'rmagick'
 gem 'carrierwave'
 gem 'russian', '~> 0.6.0'
-
+gem 'bcrypt-ruby'
 group :production do
 
   gem "mysql2", "~> 0.3.11"
@@ -36,6 +36,9 @@ group :assets do
   
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password

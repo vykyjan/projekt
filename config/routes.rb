@@ -1,6 +1,12 @@
 GalleryJqueryFileUpload::Application.routes.draw do
 
+  resources :users
+  resources :sessions, only: [:new, :create, :destroy]
   resources :presents
+
+  match '/signin',  to: 'sessions#new'
+  match '/signout', to: 'sessions#destroy', via: :delete
+  match '/signup',  to: 'users#new'
   match '/dary',  to: 'presents#index'
   match '/snoubenci',  to: 'about_us#index'
   match '/snoubenci_galerie',  to: 'about_us#gallery'

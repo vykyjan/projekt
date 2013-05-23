@@ -1,0 +1,19 @@
+<div class="container marketing">
+  <div class="row">
+<% provide(:title, 'All users') %>
+<h1>Všichni přihlášení</h1>
+
+<ul class="users">
+  <% @users.each do |user| %>
+      <li>
+
+        <%= user.name %>
+        <%= user.surname %>
+        + počet osob
+        <%= user.person %>
+      </li>
+  <% end %>
+</ul>
+
+      </div>
+    </div>
