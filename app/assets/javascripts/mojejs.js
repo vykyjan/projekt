@@ -148,3 +148,16 @@ $.ajaxTransport('jsonpi', function(opts, originalOptions, jqXHR) {
 })
 
 }(window.jQuery)
+
+
+// make button toggles update hidden field
+$('.btn-group a').on('click', function(event){
+    event.preventDefault();
+    var input = $(this).siblings('.control-group').find('input[type=hidden]');
+    if(input.length>0){
+        if(input.val().toString() !== $(this).data('value').toString()){
+            input.val($(this).data('value')).trigger('change');
+        }
+    }
+});
+

@@ -61,7 +61,7 @@ class PresentsController < ApplicationController
 
     respond_to do |format|
       if @present.update_attributes(params[:present])
-        format.html { redirect_to @present, notice: 'Present was successfully updated.' }
+        format.html { redirect_to @present, notice: 'Dar byl úspěšně aktualizován' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

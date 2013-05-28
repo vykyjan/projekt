@@ -18,10 +18,14 @@
 
     <h3>Dar:  <%= @present.name %></h3>
 
-    <div class="field">
-      <%= f.label :pole, "Obsadit?" %><br />
-      <%= f.check_box :pole, { }, "Obsazeno", "Volno" %>
-    </div>
+
+
+
+      <%= f.label :pole, "Obsadit?", :class => 'checkbox' do %>
+      <%= f.check_box :pole, {}, "Obsazeno", "Volno" %>Obsaditi<% end %>
+
+
+     <br />
     <div class="actions">
       <%= f.submit "Aktualizovat" %>
     </div>
