@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/presents/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/presents/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/presents/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/presents/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/presents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/presents/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/mojejs.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/mojejs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/presents_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/presents_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +36,7 @@
     <file path="/zenich_nav.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369126929091" ignored="false" />
     <file path="/about_nav.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369127964825" ignored="false" />
     <file path="/presents_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369744892136" ignored="false" />
-    <file path="/_form.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369147234929" ignored="false" />
+    <file path="/_form.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369747120384" ignored="false" />
     <file path="/user.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369219539415" ignored="false" />
     <file path="/users_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369225912920" ignored="false" />
     <file path="/20130522080728_create_users.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369220050836" ignored="false" />
@@ -68,10 +61,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.3721374">
+            <state line="26" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/presents/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0">
+            <state line="20" column="16" selection-start="588" selection-end="588" vertical-scroll-proportion="0.5847953">
               <folding />
             </state>
           </provider>
@@ -186,12 +179,12 @@
         <option value="$PROJECT_DIR$/app/views/presents/uvolnit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/presents/_uvolnit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/presents/_obsadit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/presents/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/presents_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/presents/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/presents/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/presents/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -1090,13 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/presents/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1134,7 +1120,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.3721374">
+        <state line="26" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/presents/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="588" selection-end="588" vertical-scroll-proportion="0.5847953">
           <folding />
         </state>
       </provider>
