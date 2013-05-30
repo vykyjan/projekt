@@ -23,7 +23,10 @@ set :branch, "master"
 role :web, domain
 role :app, domain
 role :db,  domain, :primary => true
- 
+
+task :after_symlink do
+  run "ln -nfs #{shared_path}/images/uploads #{release_path}/public/images/uploads"
+end
 
 
 
