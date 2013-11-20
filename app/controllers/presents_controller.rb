@@ -41,7 +41,7 @@ class PresentsController < ApplicationController
   # POST /presents
   # POST /presents.json
   def create
-    @present = Present.new(params[:present])
+    @present = Present.new(present_params)
 
     respond_to do |format|
       if @present.save
@@ -81,4 +81,12 @@ class PresentsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+
+  def present_params
+    params.require(:present).permit(:name, :pole)
+
+  end
+
 end

@@ -46,7 +46,7 @@ class GalleriesController < ApplicationController
   # POST /galleries
   # POST /galleries.json
   def create
-    @gallery = Gallery.new(params[:gallery])
+    @gallery = Gallery.new(gallery_params)
     @pictures = Picture.where(:gallery_token => @gallery.token)
     @gallery.pictures << @pictures
 
@@ -88,4 +88,11 @@ class GalleriesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+
+  def gallery_params
+    params.require(:gallery).permit(:cover, :description, :name, :token)
+  end
+
 end

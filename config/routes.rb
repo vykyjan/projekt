@@ -4,21 +4,21 @@ GalleryJqueryFileUpload::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :presents
 
-  match '/signin',  to: 'sessions#new'
+  match '/signin',  to: 'sessions#new' , via: :get
   match '/signout', to: 'sessions#destroy', via: :delete
-  match '/signup',  to: 'users#new'
-  match '/dary',  to: 'presents#index'
-  match '/snoubenci',  to: 'about_us#index'
-  match '/snoubenci_galerie',  to: 'about_us#gallery'
-  match '/zenich_galerie',  to: 'groom#gallery'
-  match '/zenich',  to: 'groom#index'
-  match '/nevesta',  to: 'bride#index'
- match '/nevesta_galerie',  to: 'bride#gallery'
-  match '/home',    to: 'home#home'
-  match '/aktuality',    to: 'home#aktuality'
-  match '/dary',    to: 'home#dary'
-  match '/program',    to: 'home#program'
-  match '/kontakty',    to: 'home#kontakty'
+  match '/signup',  to: 'users#new'  , via: :get
+  match '/dary',  to: 'presents#index'   , via: :get
+  match '/snoubenci',  to: 'about_us#index'      , via: :get
+  match '/snoubenci_galerie',  to: 'about_us#gallery'   , via: :get
+  match '/zenich_galerie',  to: 'groom#gallery'  , via: :get
+  match '/zenich',  to: 'groom#index'   , via: :get
+  match '/nevesta',  to: 'bride#index'   , via: :get
+ match '/nevesta_galerie',  to: 'bride#gallery'  , via: :get
+  match '/home',    to: 'home#home'      , via: :get
+  match '/aktuality',    to: 'home#aktuality'     , via: :get
+  match '/dary',    to: 'home#dary'   , via: :get
+  match '/program',    to: 'home#program'   , via: :get
+  match '/kontakty',    to: 'home#kontakty'  , via: :get
 
   resources :galleries do
     resources :pictures do
