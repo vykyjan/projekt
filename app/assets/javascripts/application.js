@@ -13,6 +13,7 @@
 
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 
 //= require jquery.ui.widget
 
@@ -31,5 +32,5 @@
 
 //= require slimbox2
 
-//= require twitter/bootstrap
+//= require bootstrap
 //= require bootstrap-image-gallery.min

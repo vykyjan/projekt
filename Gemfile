@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem 'rmagick'
 gem 'mini_magick'
 gem 'carrierwave'
+gem 'protected_attributes'
 gem 'russian', '~> 0.6.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -19,24 +20,36 @@ group :production do
   gem 'therubyracer'
   gem 'execjs'
   gem 'bootstrap-will_paginate', '0.0.6'
-  gem 'bootstrap-sass', '~> 2.3.1.0'
+
+
 
   gem 'will_paginate', '3.0.4'
-  end
+end
+
+gem 'protected_attributes'
+
+gem 'rails-observers'
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 4.0.0'
+  gem 'sass-rails',   '~> 4.0.0.rc1'
   gem 'coffee-rails', '~> 4.0.0'
+  gem 'bootstrap-sass', '~> 2.3.1.0'
+  gem "less-rails"
+  gem 'less-rails-bootstrap'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platform => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier', '>= 1.3.0'
 
-  gem 'twitter-bootstrap-rails', '2.1.2'
-  
+
 end
+
+gem 'twitter-bootstrap-rails', '2.2.6'
+gem 'less-rails'
 
 group :development do
   gem 'annotate', '2.5.0'
