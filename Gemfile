@@ -29,8 +29,8 @@ end
 gem 'protected_attributes'
 
 gem 'rails-observers'
-gem 'actionpack-page_caching'
-gem 'actionpack-action_caching'
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -50,8 +50,8 @@ end
 
 gem 'twitter-bootstrap-rails', '2.2.6'
 gem 'less-rails'
-gem 'actionpack-page_caching'
-gem 'actionpack-action_caching'
+
+gem "actionpack-action_caching", "~> 1.1.0"
 
 group :development do
   gem 'annotate', '2.5.0'
