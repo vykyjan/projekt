@@ -15,7 +15,7 @@ gem 'russian', '~> 0.6.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :production do
-
+  gem 'rails_12factor'
   gem "mysql2", "~> 0.3.11"
   gem 'therubyracer'
   gem 'execjs'

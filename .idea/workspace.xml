@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385113570941" ignored="false" />
-    <file path="/deploy.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385121481612" ignored="false" />
+    <file path="/deploy.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385121553132" ignored="false" />
     <file path="/database.yml" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1367936520135" ignored="false" />
     <file path="/routes.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385030642103" ignored="false" />
     <file path="/application.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369746159891" ignored="false" />
@@ -26,7 +27,7 @@
     <file path="/new.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369312363484" ignored="false" />
     <file path="/show.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369312731221" ignored="false" />
     <file path="/edit.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369741040695" ignored="false" />
-    <file path="/Gemfile" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384968333327" ignored="false" />
+    <file path="/Gemfile" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385121892495" ignored="false" />
     <file path="/production.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385120623129" ignored="false" />
     <file path="/_dropdowns.scss" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368770438031" ignored="false" />
     <file path="/application_helper.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368883846016" ignored="false" />
@@ -133,19 +134,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="44" selection-start="917" selection-end="917" vertical-scroll-proportion="0.7206704">
+            <state line="33" column="75" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+            <state line="17" column="3" selection-start="326" selection-end="326" vertical-scroll-proportion="0.1396648">
               <folding />
             </state>
           </provider>
@@ -191,9 +192,9 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -1160,16 +1161,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="33" column="75" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1181,9 +1182,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="44" selection-start="917" selection-end="917" vertical-scroll-proportion="0.7206704">
+        <state line="17" column="3" selection-start="326" selection-end="326" vertical-scroll-proportion="0.1396648">
           <folding />
         </state>
       </provider>
