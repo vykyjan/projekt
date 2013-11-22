@@ -50,6 +50,8 @@ end
 
 gem 'twitter-bootstrap-rails', '2.2.6'
 gem 'less-rails'
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
 
 group :development do
   gem 'annotate', '2.5.0'
