@@ -31,7 +31,7 @@ end
 
 
 # If you are using Passenger mod_rails uncomment this:
-rm /u/apps/svatba/current /u/apps/svatba/shared/assets/manifest*.{yml,json}
+
 
 namespace :assets do
   desc "Compile assets"
