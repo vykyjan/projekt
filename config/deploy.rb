@@ -37,6 +37,7 @@ namespace :assets do
   desc "Compile assets"
   task :precompile, :roles => :app do
     run "cd #{release_path} && rake RAILS_ENV=#{rails_env} assets:precompile"
+    rm /u/apps/svatba/current /u/apps/svatba/shared/assets/manifest*.{yml,json}
   end
 end
 
