@@ -3,6 +3,7 @@ GalleryJqueryFileUpload::Application.configure do
 
   # Code is not reloaded between requests.
   config.cache_classes = true
+  config.assets.initialize_on_precompile = false
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both thread web servers
@@ -25,9 +26,10 @@ GalleryJqueryFileUpload::Application.configure do
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
+  config.assets.compress = true
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Generate digests for assets URLs.
   config.assets.digest = true
