@@ -13,7 +13,7 @@ GalleryJqueryFileUpload::Application.routes.draw do
   match '/dary',  to: 'presents#index'   , via: :get
   match '/snoubenci',  to: 'about_us#index'      , via: :get
   match '/snoubenci_galerie',  to: 'about_us#gallery'   , via: :get
-  match '/zenich_galerie',  to: 'groom#gallery'  , via: :get
+  match '/zenich_galerie',  to: 'groom_galleries#index'  , via: :get
   match '/zenich',  to: 'groom#index'   , via: :get
   match '/nevesta',  to: 'bride#index'   , via: :get
   match '/nevesta_galerie',  to: 'bride#gallery'  , via: :get
@@ -31,6 +31,24 @@ GalleryJqueryFileUpload::Application.routes.draw do
     end
   end
   resources :pictures
+
+  resources :groom_galleries do
+    resources :groom_pictures do
+      collection do
+        post 'make_default'
+      end
+    end
+  end
+  resources :groom_pictures
+
+  resources :bride_galleries do
+    resources :bride_pictures do
+      collection do
+        post 'make_default'
+      end
+    end
+  end
+  resources :bride_pictures
 
   root :to => 'home#index'
 

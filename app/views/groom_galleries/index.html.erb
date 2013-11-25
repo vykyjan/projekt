@@ -1,0 +1,36 @@
+<div class="container marketing">
+  <div class="row">
+    <h1>Gallerie ženicha</h1>
+    <ul class="thumbnails files">
+      <% @groom_galleries.each do |groom_gallery| %>
+          <li class="span3" id="gallery_<%= groom_gallery.id %>">
+            <div class="thumbnail">
+              <% if groom_gallery.cover.blank? or !Gromm_picture.find_by_id(groom_gallery.cover) %>
+                  <a href="<%= groom_gallery_path(:id => groom_gallery.id) %>">
+                    <img src="/assets/NoImageAvailable.jpg" alt="">
+                  </a>
+              <% else %>
+                  <a href="<%= groom_gallery_path(:id => groom_gallery.id) %>">
+                    <img src="<%= Groom_picture.find_by_id(groom_gallery.cover).image.thumb.url %>" alt="">
+                  </a>
+              <% end %>
+              <div class="caption">
+                <p style="text-align: center;">
+                  <%= groom_gallery.name.truncate(14) %>
+                  <a href="<%= edit_groom_gallery_path(:id => groom_gallery.id) %>" class="btn btn-mini">
+                    <i class="icon-edit "></i>
+                    Edit
+                  </a>
+                  <a class="btn btn-mini btn-delete" confirm="Вы уверены?" data-method="delete" href="<%= groom_gallery_path(:id => groom_gallery.id) %>" data-remote=true>
+                    <i class="icon-trash"></i>
+                    Delete
+                  </a>
+                </p>
+              </div>
+            </div>
+          </li>
+      <% end %>
+    </ul>
+
+    <%= link_to 'New', new_groom_gallery_path, :class => 'btn btn-mini' %>
+  </div>  </div>

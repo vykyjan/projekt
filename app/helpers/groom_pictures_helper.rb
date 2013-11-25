@@ -1,0 +1,2 @@
+module GroomPicturesHelper
+end

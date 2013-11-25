@@ -9,47 +9,83 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
-# It's strongly recommended to check this file into your version control system.
+# It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130522111252) do
+ActiveRecord::Schema.define(version: 20131124190728) do
 
-  create_table "galleries", :force => true do |t|
+  create_table "bride_galleries", force: true do |t|
     t.string   "name"
     t.string   "description"
     t.integer  "cover"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "token"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "bride_pictures", force: true do |t|
+    t.string   "description"
+    t.string   "image"
+    t.integer  "bride_gallery_id"
+    t.string   "gallery_token"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "galleries", force: true do |t|
+    t.string   "name"
+    t.string   "description"
+    t.integer  "cover"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.string   "token"
   end
 
-  create_table "pictures", :force => true do |t|
+  create_table "groom_galleries", force: true do |t|
+    t.string   "name"
+    t.string   "description"
+    t.integer  "cover"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "token"
+  end
+
+  create_table "groom_pictures", force: true do |t|
     t.string   "description"
     t.string   "image"
-    t.integer  "gallery_id"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.integer  "groom_gallery_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "gallery_token"
   end
 
-  create_table "presents", :force => true do |t|
-    t.string   "name"
-    t.string   "pole"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table "pictures", force: true do |t|
+    t.string   "description"
+    t.string   "image"
+    t.integer  "gallery_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.string   "gallery_token"
   end
 
-  create_table "users", :force => true do |t|
+  create_table "presents", force: true do |t|
+    t.string   "name"
+    t.string   "pole"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: true do |t|
     t.string   "name"
     t.string   "surname"
     t.string   "email"
     t.integer  "person"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
     t.string   "password_digest"
     t.string   "remember_token"
   end
 
-  add_index "users", ["email"], :name => "index_users_on_email", :unique => true
-  add_index "users", ["remember_token"], :name => "index_users_on_remember_token"
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["remember_token"], name: "index_users_on_remember_token"
 
 end

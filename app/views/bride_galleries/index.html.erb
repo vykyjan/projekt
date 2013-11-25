@@ -1,0 +1,36 @@
+<div class="container marketing">
+  <div class="row">
+    <h1>Gallerie Nevěsty</h1>
+    <ul class="thumbnails files">
+      <% @bride_galleries.each do |bride_gallery| %>
+          <li class="span3" id="gallery_<%= bride_gallery.id %>">
+            <div class="thumbnail">
+              <% if bride_gallery.cover.blank? or !Bride_picture.find_by_id(bride_gallery.cover) %>
+                  <a href="<%= bride_gallery_path(:id => bride_gallery.id) %>">
+                    <img src="/assets/NoImageAvailable.jpg" alt="">
+                  </a>
+              <% else %>
+                  <a href="<%= bride_gallery_path(:id => bride_gallery.id) %>">
+                    <img src="<%= Bride_picture.find_by_id(bride_gallery.cover).image.thumb.url %>" alt="">
+                  </a>
+              <% end %>
+              <div class="caption">
+                <p style="text-align: center;">
+
+                  <a href="<%= edit_bride_gallery_path(:id => bride_gallery.id) %>" class="btn btn-mini">
+                    <i class="icon-edit "></i>
+                    Edit
+                  </a>
+                  <a class="btn btn-mini btn-delete" confirm="Вы уверены?" data-method="delete" href="<%= bride_gallery_path(:id => bride_gallery.id) %>" data-remote=true>
+                    <i class="icon-trash"></i>
+                    Delete
+                  </a>
+                </p>
+              </div>
+            </div>
+          </li>
+      <% end %>
+    </ul>
+
+    <%= link_to 'New', new_bride_gallery_path, :class => 'btn btn-mini' %>
+  </div>  </div>
