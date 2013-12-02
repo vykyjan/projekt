@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svatba" afterPath="$PROJECT_DIR$/svatba" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groom_galleries/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/groom_galleries/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/bride_galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/bride_galleries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bride_gallery.rb" afterPath="$PROJECT_DIR$/app/models/bride_gallery.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bride_picture.rb" afterPath="$PROJECT_DIR$/app/models/bride_picture.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/bride_pictures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/bride_pictures_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pictures/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/pictures/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/gallery.rb" afterPath="$PROJECT_DIR$/app/models/gallery.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groom_galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groom_galleries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/groom_gallery.rb" afterPath="$PROJECT_DIR$/app/models/groom_gallery.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/groom_picture.rb" afterPath="$PROJECT_DIR$/app/models/groom_picture.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groom_pictures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groom_pictures_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bride_galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/bride_galleries/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groom_galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/groom_galleries/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/presents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/presents/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/nevesta_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/nevesta_nav.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bride_galleries/new.html.erb" afterPath="$PROJECT_DIR$/app/views/bride_galleries/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/picture.rb" afterPath="$PROJECT_DIR$/app/models/picture.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/present.rb" afterPath="$PROJECT_DIR$/app/models/present.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/presents.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/presents.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/presents_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/presents_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bride_galleries/show.html.erb" afterPath="$PROJECT_DIR$/app/views/bride_galleries/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/show.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groom_galleries/show.html.erb" afterPath="$PROJECT_DIR$/app/views/groom_galleries/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/slimbox2.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/slimbox2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/svatba.iml" afterPath="$PROJECT_DIR$/.idea/svatba.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/zenich_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/zenich_nav.html.erb" />
     </list>
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +27,7 @@
     <file path="/home.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369310230305" ignored="false" />
     <file path="/nevesta_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368689497199" ignored="false" />
     <file path="/new.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385822006172" ignored="false" />
-    <file path="/show.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385825862400" ignored="false" />
+    <file path="/show.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385987600135" ignored="false" />
     <file path="/edit.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385825706482" ignored="false" />
     <file path="/Gemfile" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385836387570" ignored="false" />
     <file path="/production.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385225505131" ignored="false" />
@@ -180,17 +139,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slimbox2.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slimbox2.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svatba/app/assets/stylesheets/slimbox2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.09009009">
+            <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pictures/show.html.erb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/galleries/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -198,10 +157,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.418182">
+            <state line="27" column="50" selection-start="738" selection-end="738" vertical-scroll-proportion="0.33962265">
               <folding />
             </state>
           </provider>
@@ -243,7 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/present.rb" />
@@ -259,6 +217,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/slimbox2.js" />
+        <option value="$PROJECT_DIR$/app/views/galleries/show.html.erb" />
       </list>
     </option>
   </component>
@@ -1285,13 +1244,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bride_galleries.css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bride_pictures.css.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1323,13 +1275,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/pictures/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.418182">
           <folding />
         </state>
       </provider>
@@ -1394,7 +1339,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/svatba/app/assets/stylesheets/slimbox2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.09009009">
+        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="50" selection-start="738" selection-end="738" vertical-scroll-proportion="0.33962265">
           <folding />
         </state>
       </provider>
