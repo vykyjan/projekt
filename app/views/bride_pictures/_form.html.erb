@@ -1,0 +1,35 @@
+<%= form_for [@bride_gallery, @bride_picture], :html => { :class => 'form-horizontal' } do |f| %>
+    <div class="control-group">
+      <%= f.label :description, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :description, :class => 'text_field' %>
+      </div>
+    </div>
+
+    <%= image_tag @bride_picture.image.large.url, :id => 'cropbox' %>
+
+    <% %w[x y w h].each do |attribute| %>
+        <%= f.hidden_field "crop_#{attribute}" %>
+    <% end %>
+
+    <div class="form-actions">
+      <%= f.submit nil, :class => 'btn btn-primary  btn-mini' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                  bride_gallery_path(@bride_gallery), :class => 'btn btn-mini' %>
+      <%= link_to 'Default', '', :class => 'btn btn-mini btn-success' , :id => 'make_default'%>
+
+    </div>
+<% end %>
+
+<script type="text/javascript" charset="utf-8">
+    $(function () {
+        $('#make_default').click(function(event) {
+            event.preventDefault();
+            $.ajax({
+                url: '<%= make_default_bride_gallery_bride_pictures_path %>',
+                type: 'POST',
+                data: {id : <%= @bride_picture.id %>, bride_gallery_id : <%= @bride_gallery.id %>}
+            });
+        });
+    });
+</script>

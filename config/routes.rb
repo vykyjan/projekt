@@ -7,12 +7,13 @@ GalleryJqueryFileUpload::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :presents
 
+
   match '/signin',  to: 'sessions#new' , via: :get
   match '/signout', to: 'sessions#destroy', via: :delete
   match '/signup',  to: 'users#new'  , via: :get
   match '/dary',  to: 'presents#index'   , via: :get
   match '/snoubenci',  to: 'about_us#index'      , via: :get
-  match '/snoubenci_galerie',  to: 'about_us#gallery'   , via: :get
+  match '/snoubenci_galerie',  to: 'galleries#index'   , via: :get
   match '/zenich_galerie',  to: 'groom_galleries#index'  , via: :get
   match '/zenich',  to: 'groom#index'   , via: :get
   match '/nevesta',  to: 'bride#index'   , via: :get
@@ -23,6 +24,7 @@ GalleryJqueryFileUpload::Application.routes.draw do
   match '/program',    to: 'home#program'   , via: :get
   match '/kontakty',    to: 'home#kontakty'  , via: :get
 
+  post "gallery/create"
   resources :galleries do
     resources :pictures do
       collection do

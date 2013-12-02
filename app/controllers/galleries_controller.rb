@@ -26,14 +26,7 @@ class GalleriesController < ApplicationController
   # GET /galleries/new.json
   def new
     @gallery = Gallery.new
-    @gallery.token = @gallery.generate_token
-    @picture = @gallery.pictures.build
-    @pictures = []
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @gallery }
-    end
   end
 
   # GET /galleries/1/edit
@@ -46,18 +39,13 @@ class GalleriesController < ApplicationController
   # POST /galleries
   # POST /galleries.json
   def create
-    @gallery = Gallery.new(gallery_params)
-    @pictures = Picture.where(:gallery_token => @gallery.token)
-    @gallery.pictures << @pictures
+    @gallery = Gallery.new(params.require(:gallery).permit(:name, :description, :token, :cover))
 
-    respond_to do |format|
-      if @gallery.save
-        format.html { redirect_to @gallery, notice: 'Gallery was successfully created.' }
-        format.json { render json: @gallery, status: :created, location: @gallery }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @gallery.errors, status: :unprocessable_entity }
-      end
+
+    if @gallery.save
+      redirect_to galleries_path, :notice => "Zipcode was saved sucessfully"
+    else
+      render new_gallery_path
     end
   end
 
@@ -91,8 +79,8 @@ class GalleriesController < ApplicationController
 
   private
 
-  def gallery_params
-    params.require(:gallery).permit(:cover, :description, :name, :token)
+  def zip_params
+    params.require(:gallery).permit(:name, :description, :token, :cover)
   end
 
 end

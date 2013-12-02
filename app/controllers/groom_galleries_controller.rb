@@ -44,29 +44,24 @@ class GroomGalleriesController < ApplicationController
   # POST /galleries
   # POST /galleries.json
   def create
-    @groom_gallery = GroomGallery.new(gallery_params)
-    @groom_pictures = GroomPicture.where(:gallery_token => @groom_gallery.token)
-    @groom_gallery.groom_pictures << @groom_pictures
+    @groom_gallery = GroomGallery.new(params.require(:groom_gallery).permit(:name, :description, :token, :cover))
 
-    respond_to do |format|
-      if @groom_gallery.save
-        format.html { redirect_to @groom_gallery, notice: 'Gallery byla úspěšně vytvořena' }
-        format.json { render json: @groom_gallery, status: :created, location: @groom_gallery }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @groom_gallery.errors, status: :unprocessable_entity }
-      end
+
+    if @groom_gallery.save
+      redirect_to groom_gallery_path(@groom_gallery), :notice => "Zipcode was saved sucessfully"
+    else
+      render new_groom_gallery_path
     end
   end
 
   # PUT /galleries/1
   # PUT /galleries/1.json
   def update
-    @groom_gallery = Groom_gallery.find(params[:id])
+    @groom_gallery = GroomGallery.find(params[:id])
 
     respond_to do |format|
-      if @groom_gallery.update_attributes(params[:groom_gallery])
-        format.html { redirect_to @gallery, notice: 'Galerie byla úspěšně aktualizováná.' }
+      if @groom_gallery.update_attributes(params[:groom_gallery_params])
+        format.html { redirect_to @groom_gallery, notice: 'Galerie byla úspěšně aktualizováná.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -89,8 +84,8 @@ class GroomGalleriesController < ApplicationController
 
   private
 
-  def gallery_params
-    params.require(:groom_gallery).permit(:cover, :description, :name, :token)
+  def groom_gallery_params
+    params.require(:groom_gallery).permit(:description, :name)
   end
 
 end

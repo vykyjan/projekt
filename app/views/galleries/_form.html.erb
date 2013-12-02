@@ -1,29 +1,15 @@
-<%= form_for @gallery, :html => { :class => 'form-horizontal' } do |f| %>
-  <%= f.hidden_field :token %>
-  <div class="control-group">
-    <%= f.label :name, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :name, :class => 'text_field' %>
-    </div>
-  </div>
-  <div class="control-group">
-    <%= f.label :description, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :description, :class => 'text_field' %>
-    </div>
-  </div>
+<%= form_for :gallery, url: galleries_path do |f| %>
+<p>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %>
+</p>
 
-  <div class="form-actions">
-    <%= f.submit nil, :class => 'btn btn-mini btn-primary' %>
-    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                galleries_path, :class => 'btn btn-mini' %>
-  </div>
+<p>
+  <%= f.label :description %><br>
+  <%= f.text_area :description %>
+</p>
+
+<p>
+  <%= f.submit %>
+</p>
 <% end %>
-
-
-
-
-<%= javascript_include_tag 'jquery.ui.widget.js' %>
-<%= javascript_include_tag 'jquery.iframe-transport.js' %>
-<%= javascript_include_tag 'jquery.fileupload.js' %>
-<%= javascript_include_tag 'jquery.fileupload-ui.js' %>

@@ -1,7 +1,7 @@
 class BridePicturesController < ApplicationController
   def index
 
-    @bride_gallery = Bridegallery.find(params[:bride_gallery_id])
+    @bride_gallery = BrideGallery.find(params[:bride_gallery_id])
 
     @bride_pictures = @bride_gallery.bride_pictures
 
@@ -46,11 +46,11 @@ class BridePicturesController < ApplicationController
   # POST /pictures.json
   def create
 
-    p_attr[:image] = params[:picture][:image].first if params[:picture][:image].class == Array
+    p_attr[:image] = params[:bride_picture][:image].first if params[:bride_picture][:image].class == Array
 
     if params[:bride_gallery_id]
       @bride_gallery = BrideGallery.find(params[:bride_gallery_id])
-      @bride_picture = @bride_gallery.bride_pictures.build(picture_params)
+      @bride_picture = @bride_gallery.bride_pictures.build(bride_params)
     else
       @bride_picture = BridePicture.new(p_attr)
     end
@@ -80,7 +80,7 @@ class BridePicturesController < ApplicationController
     @bride_picture = @bride_gallery.bride_pictures.find(params[:id])
 
     respond_to do |format|
-      if @bride_picture.update_attributes(params[:picture])
+      if @bride_picture.update_attributes(params[:bride_picture])
         format.html { redirect_to bride_gallery_path(@bride_gallery), notice: 'Picture was successfully updated.' }
         format.json { head :no_content }
       else
@@ -117,10 +117,15 @@ class BridePicturesController < ApplicationController
 
   private
 
-  def picture_params
+  def bride_params
     params.require(:bride_picture).permit(:description, :gallery_id, :image, :crop_x, :crop_y, :crop_w, :crop_h, :gallery_token)
   end
 
 end
+
+
+
+
+
 
 

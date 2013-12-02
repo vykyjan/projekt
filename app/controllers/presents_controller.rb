@@ -4,12 +4,15 @@ class PresentsController < ApplicationController
   # GET /presents.json
   def index
     @presents = Present.all
+    @user_present = current_user.presents
 
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @presents }
     end
   end
+
+
 
   # GET /presents/1
   # GET /presents/1.json
@@ -31,6 +34,7 @@ class PresentsController < ApplicationController
       format.html # new.html.erb
       format.json { render json: @present }
     end
+
   end
 
   # GET /presents/1/edit
@@ -43,16 +47,11 @@ class PresentsController < ApplicationController
   def create
     @present = Present.new(present_params)
 
-    respond_to do |format|
-      if @present.save
-        format.html { redirect_to @present, notice: 'Dar byl úspěšně vytvořen' }
-        format.json { render json: @present, status: :created, location: @present }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @present.errors, status: :unprocessable_entity }
-      end
-    end
+    @present.save
+    redirect_to @present
   end
+
+
 
   # PUT /presents/1
   # PUT /presents/1.json

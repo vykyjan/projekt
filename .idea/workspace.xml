@@ -2,79 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/picture/image/2/P7140010.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/picture/image/2/large_P7140010.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/picture/image/2/preview_P7140010.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/picture/image/2/thumb_P7140010.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svatba" afterPath="$PROJECT_DIR$/svatba" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groom_galleries/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/groom_galleries/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/bride_galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/bride_galleries_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bride_gallery.rb" afterPath="$PROJECT_DIR$/app/models/bride_gallery.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bride_picture.rb" afterPath="$PROJECT_DIR$/app/models/bride_picture.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/bride_pictures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/bride_pictures_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pictures/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/pictures/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/gallery.rb" afterPath="$PROJECT_DIR$/app/models/gallery.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groom_galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groom_galleries_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/groom_gallery.rb" afterPath="$PROJECT_DIR$/app/models/groom_gallery.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/groom_picture.rb" afterPath="$PROJECT_DIR$/app/models/groom_picture.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/groom_pictures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/groom_pictures_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bride_galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/bride_galleries/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groom_galleries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/groom_galleries/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/presents/index.html.erb" afterPath="$PROJECT_DIR$/app/views/presents/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/nevesta_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/nevesta_nav.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bride_galleries/new.html.erb" afterPath="$PROJECT_DIR$/app/views/bride_galleries/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/picture.rb" afterPath="$PROJECT_DIR$/app/models/picture.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/present.rb" afterPath="$PROJECT_DIR$/app/models/present.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/presents.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/presents.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/presents_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/presents_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bride_galleries/show.html.erb" afterPath="$PROJECT_DIR$/app/views/bride_galleries/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/show.html.erb" afterPath="$PROJECT_DIR$/app/views/galleries/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/groom_galleries/show.html.erb" afterPath="$PROJECT_DIR$/app/views/groom_galleries/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/slimbox2.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/slimbox2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/svatba.iml" afterPath="$PROJECT_DIR$/.idea/svatba.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/zenich_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/zenich_nav.html.erb" />
     </list>
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385369284678" ignored="false" />
+    <file path="/Dummy.txt" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385972450494" ignored="false" />
     <file path="/deploy.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385121553132" ignored="false" />
     <file path="/database.yml" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1367936520135" ignored="false" />
-    <file path="/routes.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385370958484" ignored="false" />
+    <file path="/routes.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385833056597" ignored="false" />
     <file path="/application.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369746159891" ignored="false" />
     <file path="/home.css.scss" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385301636305" ignored="false" />
     <file path="/application.css" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368770078236" ignored="false" />
     <file path="/_navbar.scss" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369394854406" ignored="false" />
-    <file path="/index.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385376130675" ignored="false" />
+    <file path="/index.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385977771478" ignored="false" />
     <file path="/aktuality.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369124541580" ignored="false" />
     <file path="/dary.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368084941173" ignored="false" />
     <file path="/kontakty.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369382461717" ignored="false" />
     <file path="/program.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369125218552" ignored="false" />
-    <file path="/galleries_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384941216351" ignored="false" />
+    <file path="/galleries_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385458752112" ignored="false" />
     <file path="/gallery.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369127641776" ignored="false" />
     <file path="/home.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369310230305" ignored="false" />
     <file path="/nevesta_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368689497199" ignored="false" />
-    <file path="/new.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385371353234" ignored="false" />
-    <file path="/show.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385375582320" ignored="false" />
-    <file path="/edit.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385371493092" ignored="false" />
-    <file path="/Gemfile" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385121892495" ignored="false" />
+    <file path="/new.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385822006172" ignored="false" />
+    <file path="/show.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385825862400" ignored="false" />
+    <file path="/edit.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385825706482" ignored="false" />
+    <file path="/Gemfile" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385836387570" ignored="false" />
     <file path="/production.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385225505131" ignored="false" />
     <file path="/_dropdowns.scss" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368770438031" ignored="false" />
     <file path="/application_helper.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1368883846016" ignored="false" />
     <file path="/kontakt.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369125334945" ignored="false" />
     <file path="/home_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369125426811" ignored="false" />
-    <file path="/zenich_nav.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369126929091" ignored="false" />
+    <file path="/zenich_nav.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385395467833" ignored="false" />
     <file path="/about_nav.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369127964825" ignored="false" />
-    <file path="/presents_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384939302808" ignored="false" />
-    <file path="/_form.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385371289700" ignored="false" />
-    <file path="/user.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369219539415" ignored="false" />
+    <file path="/presents_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385928683807" ignored="false" />
+    <file path="/_form.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385821877428" ignored="false" />
+    <file path="/user.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385830443687" ignored="false" />
     <file path="/users_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384939352895" ignored="false" />
     <file path="/20130522080728_create_users.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369220050836" ignored="false" />
     <file path="/sessions_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369221051730" ignored="false" />
     <file path="/_present_form.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369731919244" ignored="false" />
-    <file path="/present.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369730426162" ignored="false" />
+    <file path="/present.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385848173325" ignored="false" />
     <file path="/_obsadit.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369731854964" ignored="false" />
     <file path="/uvolnit.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1369732046941" ignored="false" />
-    <file path="/*.regexp" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385122278314" ignored="false" />
-    <file path="/pictures_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384941545979" ignored="false" />
+    <file path="/*.regexp" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385978996447" ignored="false" />
+    <file path="/pictures_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385537863108" ignored="false" />
     <file path="/image_uploader.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384945097544" ignored="false" />
     <file path="/application.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385029536387" ignored="false" />
     <file path="/development.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384970010773" ignored="false" />
     <file path="/test.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384969878669" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385113738369" ignored="false" />
     <file path="/20131124141905_create_groom_pictures.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385302802740" ignored="false" />
-    <file path="/groom_galleries_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385318831730" ignored="false" />
+    <file path="/groom_galleries_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385555730448" ignored="false" />
     <file path="/20131124143247_create_add_column_to_pictures.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385303666171" ignored="false" />
     <file path="/20131124143600_create_add_column_to_galleries.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385303788738" ignored="false" />
     <file path="/groom_gallery.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385315022248" ignored="false" />
-    <file path="/groom_picture.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385305639182" ignored="false" />
-    <file path="/groom_pictures_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385373320826" ignored="false" />
+    <file path="/groom_picture.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385547605678" ignored="false" />
+    <file path="/groom_pictures_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385538314245" ignored="false" />
     <file path="/20131124185936_create_bride_galleries.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385369473171" ignored="false" />
     <file path="/20131124190728_create_bride_pictures.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385375846220" ignored="false" />
-    <file path="/bride_galleries_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385375207135" ignored="false" />
+    <file path="/bride_galleries_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385555613979" ignored="false" />
     <file path="/bride_gallery.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385371857002" ignored="false" />
-    <file path="/bride_picture.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385371902638" ignored="false" />
-    <file path="/bride_pictures_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385374806838" ignored="false" />
+    <file path="/bride_picture.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385824037653" ignored="false" />
+    <file path="/bride_pictures_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385824178607" ignored="false" />
+    <file path="/nevesta_nav.html.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385395424691" ignored="false" />
+    <file path="/gallery.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385459973064" ignored="false" />
+    <file path="/destroy.js.erb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385544806900" ignored="false" />
+    <file path="/presents.js.coffee" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385836937094" ignored="false" />
+    <file path="/slimbox2.css" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385982947503" ignored="false" />
+    <file path="/slimbox2.js" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385981106084" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +133,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gallery.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/gallery.rb">
+      <file leaf-file-name="pictures.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pictures.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="586" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="presents.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presents.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -103,8 +151,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="picture.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/picture.rb">
+      <file leaf-file-name="slimbox2.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="1" selection-start="16" selection-end="25" vertical-scroll-proportion="-0.5483871">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="groom_pictures.css.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slimbox2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/slimbox2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="214" selection-start="362" selection-end="371" vertical-scroll-proportion="-2.419355">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slimbox2.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/svatba/app/assets/stylesheets/slimbox2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.09009009">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pictures/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.418182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="groom_galleries.css.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/groom_galleries.css.less">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -112,73 +216,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="jquery.Jcrop.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="164" selection-end="186" vertical-scroll-proportion="0.20507812">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="16" selection-start="814" selection-end="829" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bride_pictures_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/bride_pictures_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="58" selection-start="3222" selection-end="3223" vertical-scroll-proportion="-10.612904">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="groom_galleries_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/groom_galleries_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="351" selection-end="403" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20131124185936_create_bride_galleries.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131124185936_create_bride_galleries.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20131124190728_create_bride_pictures.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131124190728_create_bride_pictures.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="49" selection-start="812" selection-end="812" vertical-scroll-proportion="-11.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bride_galleries_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/bride_galleries_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="72" selection-start="475" selection-end="476" vertical-scroll-proportion="-2.516129">
+            <state line="86" column="14" selection-start="445" selection-end="2962" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,27 +243,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/groom_galleries/index.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20131124185936_create_bride_galleries.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/bride_galleries/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/bride_galleries/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/groom_galleries/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/bride_galleries/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/bride_gallery.rb" />
-        <option value="$PROJECT_DIR$/app/models/bride_picture.rb" />
-        <option value="$PROJECT_DIR$/app/views/bride_galleries/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/groom_pictures_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/bride_pictures_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/bride_galleries_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/bride_galleries/show.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20131124190728_create_bride_pictures.rb" />
-        <option value="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/present.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/presents.js.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/presents_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
+        <option value="$PROJECT_DIR$/app/views/presents/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/jquery.fileupload-ui.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/pictures.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/slimbox2.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
+    <option name="x" value="-1366" />
     <option name="y" value="24" />
     <option name="width" value="1366" />
     <option name="height" value="744" />
@@ -253,8 +294,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -572,6 +611,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groom_pictures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -636,6 +679,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="galleries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svatba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="svatba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bride_pictures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -837,6 +902,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -971,6 +1038,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -1004,13 +1078,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -1132,14 +1199,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="-1366" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3306321" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4430091" sideWeight="0.6726094" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48480242" sideWeight="0.6693679" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1148,7 +1216,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1218,117 +1285,116 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/groom_pictures_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="29" selection-start="2990" selection-end="2990" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bride_galleries/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="186" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-14.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bride_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bride_galleries.css.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/groom_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bride_pictures.css.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/groom_galleries/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/groom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="46" selection-start="3990" selection-end="3990" vertical-scroll-proportion="-66.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bride_galleries/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="77" selection-end="338" vertical-scroll-proportion="-0.625">
+        <state line="10" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jquery.fileupload-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="18" selection-start="257" selection-end="1540" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pictures/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galleries/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.418182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="14" selection-start="445" selection-end="2962" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pictures.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presents.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/groom_galleries.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/groom_pictures.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="16" selection-end="25" vertical-scroll-proportion="-0.5483871">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/application-c34853e734a03d8eea4969a2920dd20d.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1917" column="0" selection-start="271799" selection-end="271799" vertical-scroll-proportion="0.3322034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/slimbox2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="214" selection-start="362" selection-end="371" vertical-scroll-proportion="-2.419355">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bride_pictures_controller.rb">
+    <entry file="file://$PROJECT_DIR$/svatba/app/assets/stylesheets/slimbox2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="58" selection-start="3222" selection-end="3223" vertical-scroll-proportion="-10.612904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bride_galleries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="475" selection-end="476" vertical-scroll-proportion="-2.516129">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/groom_galleries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="351" selection-end="403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131124185936_create_bride_galleries.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131124190728_create_bride_pictures.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galleries/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="812" selection-end="812" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/gallery.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/picture.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="814" selection-end="829" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="164" selection-end="186" vertical-scroll-proportion="0.20507812">
+        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.09009009">
           <folding />
         </state>
       </provider>

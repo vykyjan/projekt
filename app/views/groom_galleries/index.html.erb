@@ -1,5 +1,6 @@
 <div class="container marketing">
   <div class="row">
+    <%= render :template =>  'shared/zenich_nav' %>
     <h1>Gallerie ženicha</h1>
     <ul class="thumbnails files">
       <% @groom_galleries.each do |groom_gallery| %>
@@ -16,7 +17,7 @@
               <% end %>
               <div class="caption">
                 <p style="text-align: center;">
-                  <%= groom_gallery.name.truncate(14) %>
+                 <!--  groom_gallery.name.truncate(14) -->
                   <a href="<%= edit_groom_gallery_path(:id => groom_gallery.id) %>" class="btn btn-mini">
                     <i class="icon-edit "></i>
                     Edit

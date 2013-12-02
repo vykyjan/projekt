@@ -12,7 +12,7 @@
 #
 
 class Gallery < ActiveRecord::Base
-
+  attr_accessible :name, :description, :token, :cover
 
   has_many :pictures, :dependent => :destroy
 

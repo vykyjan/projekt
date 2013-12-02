@@ -10,5 +10,9 @@
 #
 
 class Present < ActiveRecord::Base
+ attr_accessible :name, :pole, :user_id
+  belongs_to :user
+
+
 
 end

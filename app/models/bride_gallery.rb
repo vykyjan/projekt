@@ -1,5 +1,6 @@
 class BrideGallery < ActiveRecord::Base
   has_many :bride_pictures, :dependent => :destroy
+  attr_accessible :name, :description, :token, :cover
 
   def generate_token
     self.token = loop do

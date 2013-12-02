@@ -25,7 +25,7 @@
       <span class="btn btn-mini fileinput-button">
         <i class="icon-plus"></i>
         <span><%= t('photos.add_files') %>...</span>
-        <%= f.file_field :image, :multiple => true %>
+        <%= f.file_field :image %>
       </span>
         </div>
       </div>
@@ -41,11 +41,11 @@
                       </a>
                       <div class="caption">
                         <p style="text-align: center;">
-                          <a href="/galleries/<%= @gallery.id %>/pictures/<%= pic.id %>/edit" class="btn btn-mini">
+                          <a href="/bride_galleries/<%= @bride_gallery.id %>/bride_pictures/<%= pic.id %>/edit" class="btn btn-mini">
                             <i class="icon-edit "></i>
                             Edit
                           </a>
-                          <a class="btn btn-mini btn-delete" confirm="Вы уверены?" data-method="delete" href="/galleries/<%= @bride_gallery.id %>/pictures/<%= pic.id %>" data-remote=true>
+                          <a class="btn btn-mini btn-delete" confirm="Вы уверены?" data-method="delete" href="/bride_galleries/<%= @bride_gallery.id %>/bride_pictures/<%= pic.id %>" data-remote=true>
                             <i class="icon-trash"></i>
                             Delete
                           </a>
@@ -109,9 +109,9 @@
 
   <div class="row">
     <div class="form-actions">
-      <%= link_to 'Back', galleries_path, :class => 'btn btn-mini'  %>
-      <%= link_to 'Edit', edit_gallery_path(@gallery), :class => 'btn btn-mini' %>
-      <%= link_to 'Delete', gallery_path(@gallery), :method => 'delete', :confirm => 'Are you sure?', :class => 'btn btn-mini' %>
+      <%= link_to 'Back', bride_galleries_path, :class => 'btn btn-mini'  %>
+      <%= link_to 'Edit', edit_bride_gallery_path(@bride_gallery), :class => 'btn btn-mini' %>
+      <%= link_to 'Delete', bride_gallery_path(@bride_gallery), :method => 'delete', :confirm => 'Are you sure?', :class => 'btn btn-mini' %>
     </div>
   </div>
 </div>

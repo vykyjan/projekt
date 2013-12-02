@@ -37,25 +37,20 @@ class BrideGalleriesController < ApplicationController
   # GET /galleries/1/edit
   def edit
     @bride_gallery = BrideGallery.find(params[:id])
-    @bride_picture = @bride_gallery.gbride_pictures.build
+    @bride_picture = @bride_gallery.bride_pictures.build
     @bride_pictures = []
   end
 
   # POST /galleries
   # POST /galleries.json
   def create
-    @bride_gallery = BrideGallery.new(gallery_params)
-    @bride_pictures = BridePicture.where(:gallery_token => @bride_gallery.token)
-    @bride_gallery.bride_pictures << @bride_pictures
+    @bride_gallery = BrideGallery.new(params.require(:bride_gallery).permit(:name, :description, :token, :cover))
 
-    respond_to do |format|
-      if @bride_gallery.save
-        format.html { redirect_to @bride_gallery, notice: 'Gallery byla úspěšně vytvořena' }
-        format.json { render json: @bride_gallery, status: :created, location: @bride_gallery }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @bride_gallery.errors, status: :unprocessable_entity }
-      end
+
+    if @bride_gallery.save
+      redirect_to bride_gallery_path(@bride_gallery), :notice => "Zipcode was saved sucessfully"
+    else
+      render new_bride_gallery_path
     end
   end
 

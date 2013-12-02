@@ -1,6 +1,6 @@
 class GroomPicture < ActiveRecord::Base
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
-
+  attr_accessible :description, :gallery_id, :image, :crop_x, :crop_y, :crop_w, :crop_h, :gallery_token
   belongs_to :groom_gallery
 
   mount_uploader :image, ImageUploader
@@ -24,8 +24,8 @@ class GroomPicture < ActiveRecord::Base
     current_version = self.image.current_path
     large_version = "#{Rails.root}/public" + self.image.versions[:large].to_s
 
-    FileUtils.rm(current_version)
-    FileUtils.cp(large_version, current_version)
+    #FileUtils.rm(current_version)
+     #FileUtils.cp(large_version, current_version)
   end
 end
 
