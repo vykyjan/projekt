@@ -13,8 +13,7 @@
 
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
-//= require turbolinks
+
 
 //= require jquery.ui.widget
 
@@ -35,3 +34,6 @@
 
 //= require bootstrap
 //= require bootstrap-image-gallery.min
+
+//= require twitter/bootstrap
+//= require turbolinks
