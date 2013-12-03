@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b29f9fc-3156-41bc-8601-eda0b2c542ef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svatba" afterPath="$PROJECT_DIR$/svatba" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="svatba.iws" />
@@ -92,15 +91,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slimbox2.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/slimbox2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="16" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slimbox2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/slimbox2.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,13 +109,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.27935943">
+            <state line="15" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="73" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.613879">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/present.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/presents.js.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/presents_controller.rb" />
@@ -218,6 +216,7 @@
         <option value="$PROJECT_DIR$/app/views/galleries/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -1244,11 +1243,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jquery.Jcrop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="14" selection-start="445" selection-end="2962" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pictures.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="586" vertical-scroll-proportion="0.0" />
@@ -1341,10 +1335,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.27935943">
+        <state line="15" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="73" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.613879">
+          <folding />
         </state>
       </provider>
     </entry>
