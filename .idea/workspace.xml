@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svatba" afterPath="$PROJECT_DIR$/svatba" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest-d541fc05825ab1d45ec3b92b00e872ea.json" afterPath="$PROJECT_DIR$/public/assets/manifest-d541fc05825ab1d45ec3b92b00e872ea.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +49,7 @@
     <file path="/*.regexp" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385978996447" ignored="false" />
     <file path="/pictures_controller.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385537863108" ignored="false" />
     <file path="/image_uploader.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384945097544" ignored="false" />
-    <file path="/application.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385029536387" ignored="false" />
+    <file path="/application.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1386594938335" ignored="false" />
     <file path="/development.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384970010773" ignored="false" />
     <file path="/test.rb" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1384969878669" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="6b29f9fc-3156-41bc-8601-eda0b2c542ef" time="1385113738369" ignored="false" />
@@ -110,19 +109,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="75" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+            <state line="23" column="133" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.6284153">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="36" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.2669039">
+            <state line="22" column="36" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1328,16 +1327,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="75" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+        <state line="22" column="36" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.2669039">
+        <state line="23" column="133" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.6284153">
           <folding />
         </state>
       </provider>
