@@ -21,7 +21,33 @@ module GalleryJqueryFileUpload
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.assets.enabled = true
-    config.assets.precompile += %w( 'application.js', 'application.css', 'slimbox.js', 'moje.js', 'main.js', 'jquery.ui.widget.js'  )
+
+
+
+
+    config.autoload_paths += %W(#{config.root}/lib #{config.root}/lib/payload)
+
+    config.encoding = "utf-8"
+    config.i18n.fallbacks = true
+
+    config.serve_static_assets = true
+
+    config.assets.compile = true
+
+    config.assets.version = '1.1'
+    config.assets.initialize_on_precompile = false
+    config.assets.paths <<
+        Rails.root.join('app','assets','skins')
+
+
+
+    config.secret_key_base = 'GalleryJqueryFileUpload'
+
+    config.cache_store = :memory_store
+    config.static_cache_control = "public, max-age=3600"
+
+    config.filter_parameters += [:password]
+
 
   end
 end
