@@ -1,0 +1,1 @@
+(function(){$("document").on("click",".edit_task input[type=checkbox]",function(){return $(this).parent("form").submit()})}).call(this);
