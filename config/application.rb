@@ -32,7 +32,7 @@ module GalleryJqueryFileUpload
 
 
 
-    config.assets.compile = true
+
 
     config.assets.version = '1.1'
     config.assets.initialize_on_precompile = false
