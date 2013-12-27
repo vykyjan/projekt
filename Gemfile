@@ -20,7 +20,7 @@ group :production do
   gem 'therubyracer'
   gem 'execjs'
   gem 'bootstrap-will_paginate', '0.0.6'
-  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+
 
 
   gem 'will_paginate', '3.0.4'
