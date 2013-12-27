@@ -15,12 +15,12 @@ gem 'russian', '~> 0.6.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :production do
-  gem 'rails_12factor'
+
   gem "mysql2", "~> 0.3.11"
   gem 'therubyracer'
   gem 'execjs'
   gem 'bootstrap-will_paginate', '0.0.6'
-
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 
 
   gem 'will_paginate', '3.0.4'
