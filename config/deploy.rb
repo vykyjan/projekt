@@ -11,7 +11,7 @@ set :repository, "gitbox:svatba"
 set :deploy_to, "/u/apps/#{application}"
 set :deploy_via, :remote_cache
 
-
+set :rails_env, "production"
 set :copy_cache, true
 set :user, "root"
 set :use_sudo, false
