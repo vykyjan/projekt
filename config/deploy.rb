@@ -28,6 +28,18 @@ task :after_symlink do
   run "ln -nfs #{shared_path}/images/uploads #{release_path}/public/images/uploads"
 end
 
+namespace :assets do
+  desc "Compile assets"
+  task :precompile, :roles => :app do
+    run "cd #{release_path} && rake RAILS_ENV=#{rails_env} assets:precompile"
+  end
+end
+
+after "deploy:symlink" do
+  run "chmod -R 0666 #{current_path}/log"
+  run "chown -R www-data:www-data #{current_path}/"
+end
+
 
 
 # If you are using Passenger mod_rails uncomment this:
