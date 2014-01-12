@@ -11,6 +11,6 @@
  *= require_self
 
  *= require_tree
- 
+ *= home
  *= require bootstrap_and_overrides
 */
