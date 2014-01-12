@@ -21401,3 +21401,406 @@ Processing by BrideController#index as HTML
   Rendered bride/index.html.erb within layouts/application (3.3ms)
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
 Completed 200 OK in 103ms (Views: 101.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nevesta" for 127.0.0.1 at 2014-01-12 20:01:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BrideController#index as HTML
+  Rendered shared/nevesta_nav.html.erb (1.5ms)
+  Rendered bride/index.html.erb within layouts/application (4.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+Completed 200 OK in 464ms (Views: 434.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/about_us.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/bride.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/bride_galleries.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/bride_pictures.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/groom.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/groom_galleries.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/groom_pictures.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/presents.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-12 20:01:33 +0100
+
+
+Started GET "/nevesta" for 127.0.0.1 at 2014-01-12 20:01:36 +0100
+Processing by BrideController#index as HTML
+  Rendered shared/nevesta_nav.html.erb (1.2ms)
+  Rendered bride/index.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nevesta" for 127.0.0.1 at 2014-01-12 20:01:39 +0100
+Processing by BrideController#index as HTML
+  Rendered shared/nevesta_nav.html.erb (0.3ms)
+  Rendered bride/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nevesta" for 127.0.0.1 at 2014-01-12 20:01:41 +0100
+Processing by BrideController#index as HTML
+  Rendered shared/nevesta_nav.html.erb (0.5ms)
+  Rendered bride/index.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nevesta" for 127.0.0.1 at 2014-01-12 20:12:21 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BrideController#index as HTML
+  Rendered shared/nevesta_nav.html.erb (1.3ms)
+  Rendered bride/index.html.erb within layouts/application (4.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+Completed 200 OK in 733ms (Views: 694.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/bride.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/about_us.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/bride_galleries.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/groom_galleries.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/bride_pictures.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/groom_pictures.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/jquery.Jcrop.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/groom.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/jquery.fileupload-ui.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/presents.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/slimbox2.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/jquery.Jcrop.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:22 +0100
+
+
+Started GET "/assets/load-image.min.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/canvas-to-blob.min.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/jquery.fileupload-ip.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/jquery.fileupload.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/jquery.fileupload-ui.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/locale.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/slimbox2.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/about_us.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/bride.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/bride_galleries.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/bride_pictures.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/galleries.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/groom.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/groom_galleries.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/groom_pictures.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/mojejs.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/presents.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-01-12 20:12:23 +0100
+
+
+Started GET "/nevesta" for 127.0.0.1 at 2014-01-12 20:12:33 +0100
+Processing by BrideController#index as HTML
+  Rendered shared/nevesta_nav.html.erb (0.8ms)
+  Rendered bride/index.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/zenich" for 127.0.0.1 at 2014-01-12 20:12:37 +0100
+Processing by GroomController#index as HTML
+  Rendered shared/zenich_nav.html.erb (1.5ms)
+  Rendered groom/index.html.erb within layouts/application (4.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.3ms)
