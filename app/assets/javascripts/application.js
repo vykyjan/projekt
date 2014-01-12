@@ -25,6 +25,7 @@
 //= require jquery.fileupload
 //= require jquery.fileupload-ip
 //= require jquery.fileupload-ui
+//= require twitter/bootstrap
 //= require locale
 //= require main
 
@@ -35,7 +36,8 @@
 
 //= require bootstrap-image-gallery.min
 
-//= require twitter/bootstrap
+
 //= require_tree .
 //= require turbolinks
 //= mojejs
+//= require bootstrap
