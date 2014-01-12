@@ -2,6 +2,6 @@
   <div class="row">
     <%= render :template => 'shared/about_nav' %>
     <h1>Bylo nebylo,</h1>
-    <p> na táboře v roce 2006 svedl Bůh osudy dvou mladých lidí, Rádi a Honzy, k sobě. Jak čas plynul, cestičky se přibližovaly a o 2 roky později opět na táboře se Honza rozhodl, že to s Ráďou risknou... Vydali se po cestě poznání dobrého i zlého, Honza vzal poprvé do rukou housle, brnkl si na klavír, Raduška poprvé dělala "takový to, jak se s tím šťouchá do země" (rytí) a mnoho dalšího, co neměli možnost za svůj krátký život okusit... Raduška mezitím dospěla - na Honzíka se stále čeká, už asi 4 roky... Až jednou, myslím, že to bylo někde u Maďarů, se Honza konečně dospěle vyjádřil a požádal Radušku o ruku. Od té doby už uteklo hodně vody, ale nyní je to konečně tady... Budou se brát!!! </p>
+    <p> na táboře v roce 2006 svedl Bůh osudy dvou mladých lidí, Rádi a Honzy, k sobě. Jak čas plynul, cestičky se přibližovaly a o 2 roky později opět na táboře se Honza rozhodl, že to s Ráďou risknou... Vydali se po cestě poznání dobrého i zlého, Honza vzal poprvé do rukou housle, brnkl si na klavír, Raduška poprvé dělala "takový to, jak se s tím šťouchá do země" (rytí) a mnoho dalšího, co neměli možnost za svůj krátký život okusit... <br>Raduška mezitím dospěla - na Honzíka se stále čeká, už asi 4 roky... Až jednou, myslím, že to bylo někde u Maďarů, se Honza konečně dospěle vyjádřil a požádal Radušku o ruku. Od té doby už uteklo hodně vody, ale nyní je to konečně tady... Budou se brát!!! </p>
   </div>
 </div>
