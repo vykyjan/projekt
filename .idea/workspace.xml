@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdeea30-9fe5-4212-bf81-995065d94c13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="svatba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,7 +128,7 @@
       <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="10" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.8051948">
+            <state line="32" column="43" selection-start="950" selection-end="950" vertical-scroll-proportion="0.45454547">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -696,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="10" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.8051948">
+        <state line="32" column="43" selection-start="950" selection-end="950" vertical-scroll-proportion="0.45454547">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
