@@ -38,3 +38,4 @@
 //= require twitter/bootstrap
 //= require_tree .
 //= require turbolinks
+//= mojejs
