@@ -35,8 +35,8 @@ ActiveRecord::Schema.define(version: 20131130160219) do
     t.string   "name"
     t.string   "description"
     t.integer  "cover"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "token"
   end
 
@@ -62,8 +62,8 @@ ActiveRecord::Schema.define(version: 20131130160219) do
     t.string   "description"
     t.string   "image"
     t.integer  "gallery_id"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "gallery_token"
   end
 
@@ -86,7 +86,7 @@ ActiveRecord::Schema.define(version: 20131130160219) do
     t.string   "remember_token"
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
-  add_index "users", ["remember_token"], name: "index_users_on_remember_token", using: :btree
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["remember_token"], name: "index_users_on_remember_token"
 
 end

@@ -1,0 +1,7 @@
+<div class="container marketing">
+  <div class="row">
+    <%= render :template => 'shared/about_nav' %>
+    <h1>Bylo nebylo,</h1>
+    <p> jednoho krásného léta roku 2006, svedl Bůh osudy dvou mladých lidí k sobě. Jak čas plynul, cestičky se přibližovaly</p>
+  </div>
+</div>

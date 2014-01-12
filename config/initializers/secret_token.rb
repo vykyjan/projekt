@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-GalleryJqueryFileUpload::Application.config.secret_key_base = 'b887427c17484a429e78f2726661cac5fb935c1ea64549bc87c14bb64fb37beffa3fd8ce6d5f8b7b80d29b1b025452909dd58361efcfdb34379de941e301b00e'
+Svatba::Application.config.secret_key_base = 'd83f2dde530fb243715e0ee32adbcae85ae7ec13d034148f6a9f1398c963732534d8c1ae29cf0e8d3e899eec2522db4f4b95696b3be1888593997e14eb5c07f3'

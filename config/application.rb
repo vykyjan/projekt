@@ -1,13 +1,12 @@
 require File.expand_path('../boot', __FILE__)
 
-
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-module GalleryJqueryFileUpload
+module Svatba
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -20,34 +19,5 @@ module GalleryJqueryFileUpload
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-    config.assets.enabled = true
-
-
-
-
-    config.autoload_paths += %W(#{config.root}/lib #{config.root}/lib/payload)
-
-    config.encoding = "utf-8"
-    config.i18n.fallbacks = true
-
-
-
-
-
-    config.assets.version = '1.1'
-    config.assets.initialize_on_precompile = false
-    config.assets.paths <<
-        Rails.root.join('app','assets','skins')
-
-
-
-    config.secret_key_base = 'GalleryJqueryFileUpload'
-
-    config.cache_store = :memory_store
-    config.static_cache_control = "public, max-age=3600"
-
-    config.filter_parameters += [:password]
-
-
   end
 end
