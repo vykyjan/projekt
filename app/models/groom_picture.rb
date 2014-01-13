@@ -1,6 +1,6 @@
 class GroomPicture < ActiveRecord::Base
   attr_accessor :crop_x, :crop_y, :crop_w, :crop_h
-  attr_accessible :description, :gallery_id, :image, :crop_x, :crop_y, :crop_w, :crop_h, :gallery_token
+
   belongs_to :groom_gallery
 
   mount_uploader :image, ImageUploader
