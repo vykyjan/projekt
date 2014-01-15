@@ -7,7 +7,7 @@ Svatba::Application.routes.draw do
    
     resources :users
   resources :sessions, only: [:new, :create, :destroy]
-  resources :presents
+
 
 
   match '/signin',  to: 'sessions#new' , via: :get
@@ -53,6 +53,14 @@ Svatba::Application.routes.draw do
     end
   end
   resources :bride_pictures
+
+
+
+   resources :presents do
+     member do
+       get 'taken_toggle'
+     end
+end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

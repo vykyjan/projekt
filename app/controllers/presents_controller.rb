@@ -1,10 +1,13 @@
 # coding: utf-8
 class PresentsController < ApplicationController
+  before_filter :signed_in_user, only: [:edit, :update]
+  before_action :admin_user,     only: [:destroy, :new]
+
  # GET /presents
   # GET /presents.json
   def index
     @presents = Present.all
-    @user_present = current_user.presents
+
 
     respond_to do |format|
       format.html # index.html.erb
@@ -81,11 +84,32 @@ class PresentsController < ApplicationController
     end
   end
 
+  def taken_toggle
+    @present = Present.find(params[:id])
+    if @present.boolean == true
+      @present.boolean = false
+    else
+      @present.boolean = true
+    end
+    @present.save
+    redirect_to @present
+  end
+
+
+
   private
 
   def present_params
-    params.require(:present).permit(:name, :pole)
+    params.require(:present).permit(:name, :pole, :text, :boolean)
 
+  end
+
+  def signed_in_user
+    redirect_to signin_url, notice: "Please sign in." unless signed_in?
+  end
+
+  def admin_user
+    redirect_to(root_url) unless current_user.admin?
   end
 
 end

@@ -11,6 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 
+//= mojejs
 //= require jquery
 //= require jquery_ujs
 
@@ -28,16 +29,11 @@
 //= require twitter/bootstrap
 //= require locale
 //= require main
-
 //= require pictures
-
 //= require slimbox2
-
-
-//= require bootstrap-image-gallery.min
-
-
 //= require_tree .
 //= require turbolinks
-//= mojejs
+
+
 //= require bootstrap
+//= require bootstrap-image-gallery.min

@@ -1,9 +1,7 @@
 <div class="container marketing" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
   <div class="row">
-    <% if signed_in? %>
-        Moje  vybranné dary
-        <% @user_present.name %>
-        <% end %>
+
+
 
 
     <h1>Seznam darů</h1>
@@ -11,7 +9,7 @@
 <table class="table">
   <tr>
     <th>Název</th>
-    <th>Obsazeno</th>
+    <th>text</th>
     <th></th>
     <th></th>
     <th></th>
@@ -20,9 +18,19 @@
 <% @presents.each do |present| %>
   <tr>
     <td><%= present.name %></td>
-    <td class="polenahoru"><%= present.pole %></td>
-    <td><%= link_to 'Prolédnout a obsadit', present, class: "btn btn-danger" %></td>
-    <td>
+    <td><%= present.text %></td>
+    <td class="polenahoru">
+      <% if present.boolean %>
+          Obsazeno
+      <% else %>
+          Volno
+      <% end %></td>
+      </td>
+      <td><% if present.boolean %>
+            <%= link_to "Obsazeno", taken_toggle_present_path(present), class: "btn btn-danger" %>
+        <% else %>
+            <%= link_to "Volno", taken_toggle_present_path(present), class: "btn btn-success" %>
+        <% end %> </td>
 
 
     <td><%= link_to 'smazat', present, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -34,6 +42,10 @@
 
 <br>
     <br>
+    <% if current_user && current_user.admin? %>
 <%= link_to 'Nový dar', new_present_path %>
+
+
+    <% end %>
  </div>
     </div>

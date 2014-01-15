@@ -4,11 +4,16 @@
 
 
 <h3>Dar:  <%= @present.name %></h3>
-
+<h4>Popis:<%= @present.text %></h4>
 
 <p>
-  <b>Pole:</b>
-  <%= @present.pole %>
+  <b>Stav:</b>
+  <% if @present.boolean %>
+  Obsazeno
+   <% else %>
+  Volno
+      <% end %>
+
 </p>
 
 

@@ -22,15 +22,21 @@ class User < ActiveRecord::Base
 
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: { :message => "neni vyplneno" }, format: { with: VALID_EMAIL_REGEX }, uniqueness: { case_sensitive: false }
-  validates :name, presence: { :message => "neni vyplneno" }, length: { maximum: 20 }
+  #validates :name, presence: { :message => "neni vyplneno" }, length: { maximum: 20 }
   validates :person, presence: { :message => "neni vyplneno" }, :numericality => {:greater_than => 0 }
-  validates :surname, presence: { :message => "neni vyplneno" }, length: { maximum: 20 }
+  #validates :surname, presence: { :message => "neni vyplneno" }, length: { maximum: 20 }
   validates :password, presence: { :message => "neni vyplneno" }, length: { minimum: 6, :message => "prilis kratke"  }
   validates :password_confirmation, presence: { :message => "neni vyplneno" }
+
+  def admin?
+    admin
+  end
 
   private
 
   def create_remember_token
     self.remember_token = SecureRandom.urlsafe_base64
   end
+
+
 end
